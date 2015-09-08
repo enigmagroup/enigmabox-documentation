@@ -1,6 +1,5 @@
-##################
 Enigmabox Handbuch
-##################
+==================
 
 .. toctree::
 	:includehidden:

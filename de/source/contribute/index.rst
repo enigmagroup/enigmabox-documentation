@@ -1,6 +1,5 @@
-#########
 Mitwirken
-#########
+=========
 
 .. toctree::
 	:titlesonly:
