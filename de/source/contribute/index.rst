@@ -1,6 +1,6 @@
-###########################
-Contributing to CodeIgniter
-###########################
+#########
+Mitwirken
+#########
 
 .. toctree::
 	:titlesonly:
