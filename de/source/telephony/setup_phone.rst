@@ -1,5 +1,5 @@
 ######################
-Dsa Telefon einrichten
+Das Telefon einrichten
 ######################
 
 sdf
