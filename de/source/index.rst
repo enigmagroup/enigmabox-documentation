@@ -15,8 +15,9 @@ Enigmabox Handbuch
 	email/index
 	telephony/index
 	services/index
+	tech_concept/index
 	security/index
-	cjdns/index
+	commandline/index
 	firmware/index
 	contribute/index
 

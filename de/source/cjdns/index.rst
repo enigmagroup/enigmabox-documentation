@@ -1,4 +1,0 @@
-Das Netzwerkprotokoll cjdns
-===========================
-
-sdf
