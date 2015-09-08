@@ -9,5 +9,5 @@ sdf
    :hidden:
    :titlesonly:
 
-   apu
+   enigmabox
    banana_pi

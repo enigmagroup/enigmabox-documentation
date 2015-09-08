@@ -5,9 +5,6 @@ Mitwirken
 .. toctree::
 	:titlesonly:
 
-	../documentation/index
-	../DCO
-
 CodeIgniter is a community driven project and accepts contributions of code
 and documentation from the community. These contributions are made in the form
 of Issues or `Pull Requests <https://help.github.com/articles/using-pull-requests/>`_ 
@@ -143,5 +140,5 @@ could even alias git commit to use the -s flag so you don’t have to think abou
 it.
 
 By signing your work in this manner, you certify to a "Developer's Certificate
-or Origin". The current version of this certificate is in the :doc:`/DCO` file
+or Origin". The current version of this certificate is in the file
 in the root of this documentation.

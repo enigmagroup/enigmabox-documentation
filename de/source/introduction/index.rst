@@ -1,5 +1,4 @@
-##########
-Einführung
-##########
+Introduction
+============
 
 sdf
