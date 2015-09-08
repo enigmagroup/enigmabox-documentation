@@ -22,18 +22,20 @@ http://python.org/download/releases/2.7.2/
 Installation
 ============
 
+Assuming you want to generate the german (de) manual:
+
 1. Install `easy_install <http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install>`_
 2. ``easy_install "sphinx==1.2.3"``
-3. ``cd user_guide_src``
+3. ``cd de``
 4. ``make html``
 
 Editing and Creating Documentation
 ==================================
 
-All of the source files exist under *source/* and is where you will add new
-documentation or modify existing documentation.  Just as with code changes,
-we recommend working from feature branches and making pull requests to
-the *dev* branch of this repo.
+All of the source files exist under *source/* in the corresponding language
+directory and is where you will add new documentation or modify existing
+documentation.  Just as with code changes, we recommend working from feature
+branches and making pull requests to the *dev* branch of this repo.
 
 So where's the HTML?
 ====================
