@@ -1,5 +1,6 @@
 #!/bin/bash
 
 cd ..
+rm -r build/html
 make html
 iceweasel build/html/index.html
