@@ -1,12 +1,12 @@
-######################
-CodeIgniter User Guide
-######################
+##################
+Enigmabox Handbook
+##################
 
 ******************
 Setup Instructions
 ******************
 
-The CodeIgniter user guide uses Sphinx to manage the documentation and
+The Enigmabox Handbook uses Sphinx to manage the documentation and
 output it to various formats.  Pages are written in human-readable
 `ReStructured Text <http://sphinx.pocoo.org/rest.html>`_ format.
 
@@ -24,10 +24,8 @@ Installation
 
 1. Install `easy_install <http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install>`_
 2. ``easy_install "sphinx==1.2.3"``
-3. ``easy_install sphinxcontrib-phpdomain``
-4. Install the CI Lexer which allows PHP, HTML, CSS, and JavaScript syntax highlighting in code examples (see *cilexer/README*)
-5. ``cd user_guide_src``
-6. ``make html``
+3. ``cd user_guide_src``
+4. ``make html``
 
 Editing and Creating Documentation
 ==================================
@@ -35,7 +33,7 @@ Editing and Creating Documentation
 All of the source files exist under *source/* and is where you will add new
 documentation or modify existing documentation.  Just as with code changes,
 we recommend working from feature branches and making pull requests to
-the *develop* branch of this repo.
+the *dev* branch of this repo.
 
 So where's the HTML?
 ====================
@@ -54,10 +52,3 @@ user guide and images will be in *build/html/*.  After the HTML has been built,
 each successive build will only rebuild files that have changed, saving
 considerable time.  If for any reason you want to "reset" your build files,
 simply delete the *build* folder's contents and rebuild.
-
-***************
-Style Guideline
-***************
-
-Please refer to source/documentation/index.rst for general guidelines for
-using Sphinx to document CodeIgniter.
