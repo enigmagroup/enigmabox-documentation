@@ -1,6 +1,6 @@
-########
-Hardware
-########
+#######
+Dienste
+#######
 
 sdf
 
@@ -9,5 +9,8 @@ sdf
    :hidden:
    :titlesonly:
 
-   apu
-   banana_pi
+   hosting
+   wiki
+   owncloud
+   teletext
+   manage_access

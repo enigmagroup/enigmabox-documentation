@@ -1,5 +1,5 @@
 ########
-Hardware
+Security
 ########
 
 sdf
@@ -9,5 +9,4 @@ sdf
    :hidden:
    :titlesonly:
 
-   apu
-   banana_pi
+   threat_model

@@ -1,6 +1,6 @@
-########
-Hardware
-########
+#########
+Telefonie
+#########
 
 sdf
 
@@ -9,5 +9,6 @@ sdf
    :hidden:
    :titlesonly:
 
-   apu
-   banana_pi
+   setup_phone
+   conference_calls
+   combox
