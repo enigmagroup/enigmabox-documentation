@@ -34,8 +34,7 @@ Editing and Creating Documentation
 
 All of the source files exist under *source/* in the corresponding language
 directory and is where you will add new documentation or modify existing
-documentation.  Just as with code changes, we recommend working from feature
-branches and making pull requests to the *dev* branch of this repo.
+documentation.
 
 So where's the HTML?
 ====================
