@@ -9,20 +9,26 @@ Bedrohungsmodell
 Unverschlüsselter Speicher
 **************************
 
-* CF-Card/SD-Card/SSD (depending on your model) is not yet encrypted
-* Needs to be implemented
-* Exposed information in case of seizure:
-  * Your address book contacts
-  * Your emails
-  * Your cjdns private key
-  * All passwords
+Der interne Speicher der Enigmabox (CF-Card, SD-Card, SSD) ist nicht verschlüsselt. Das muss noch implementiert werden.
+
+Folgende Informationen sind exponiert im Falle einer Hausdurchsuchung:
+
+* Adressbuch
+* E-Mails
+* cjdns Private Key
+* Alle Passwörter
+* OwnCloud-Dateien
+* Wiki-Inhalte, Bilder
+* Websites
 
 **Abwehr:**
 
-* Use pseudonym names in your address book for your contacts
-* Set up a mailclient to receive emails so that they are not stored on the Enigmabox
-* In case of seizure: get a new Enigmabox with a new IPv6 (the seized one may be bugged!)
-* INFORM YOUR CONTACTS that your Box has been seized, they should remove you from their address book
+* Benutze Pseudonyme im Adressbuch für deine Kontakte.
+* Richte einen Mailclient ein, damit möglichst wenig E-Mails auf der Box gespeichert werden (siehe :ref:`thunderbird` ).
+* Im Falle einer Beschlagnahmung:
+    * Benutz eine neue Enigmabox mit einer neuen IPv6.
+    * INFORMIERE DEINE KONTAKTE, dass deine Box beschlagnahmt wurde und sie deine alte IPv6-Adresse aus dem Adressbuch löschen sollen. So wird den Behörden der Zugang verweigert.
+    * Bestelle ein Ersatzzertifikat, schicke dein altes Zertifikat (Zip-Datei auf dem USB-Stick) an contact@enigmabox.net. Wir invalidieren es und stellen dir ein neues aus.
 
 *******************************************
 Kein Passwort gesetzt nach dem ersten Start

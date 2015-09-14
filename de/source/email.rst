@@ -12,6 +12,8 @@ Auf das Webmail zugreifen
 
 sdf
 
+.. _thunderbird:
+
 *************************
 Thunderbird konfigurieren
 *************************
