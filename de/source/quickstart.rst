@@ -34,7 +34,7 @@ Anschliessen der Komponenten
 
 Schliesse das andere Ende des schwarzen Kabels in die "LAN" Buchse des Telefons an.
 
-Verbinde das Stromkabel mit der Enigmabox. Beim ersten Start kann es bis zu 5 Minuten dauern, bis die Box bereit ist. Sie aktualisiert die Software auf den neusten Stand und konfiguriert ihren Internetzugang.
+Verbinde das Stromkabel mit der Enigmabox. Beim ersten Start kann es bis zu 5 Minuten dauern, bis die Box bereit ist. Sie bringt die Software auf den neusten Stand und konfiguriert ihren Internetzugang.
 
 Zugriff auf die Administrationsoberfläche
 =========================================
