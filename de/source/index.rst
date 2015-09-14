@@ -3,7 +3,6 @@ Enigmabox Handbuch
 
 .. toctree::
 	:includehidden:
-	:titlesonly:
 	:maxdepth: 2
 
 	quickstart/index
@@ -13,7 +12,7 @@ Enigmabox Handbuch
 	system/index
 	internet/index
 	email/index
-	telephony/index
+	telephony
 	services/index
 	tech_concept/index
 	security/index
