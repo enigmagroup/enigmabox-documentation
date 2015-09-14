@@ -7,8 +7,8 @@ Enigmabox Handbuch
 
 	quickstart
 	introduction
-	hardware
 	use_cases
+	hardware
 	system
 	internet
 	telephony
