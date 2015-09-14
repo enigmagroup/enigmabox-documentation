@@ -1,5 +1,0 @@
-Die Firmware aktualisieren
-==========================
-
-sdf
-

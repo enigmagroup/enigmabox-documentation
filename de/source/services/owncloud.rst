@@ -1,5 +1,0 @@
-OwnCloud konfigurieren
-======================
-
-sdf
-

@@ -1,5 +1,0 @@
-Das System wiederherstellen
-===========================
-
-sdf
-

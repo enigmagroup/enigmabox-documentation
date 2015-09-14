@@ -5,18 +5,18 @@ Enigmabox Handbuch
 	:includehidden:
 	:maxdepth: 2
 
-	quickstart/index
-	introduction/index
-	hardware/index
-	connection_modes/index
-	system/index
-	internet/index
-	email/index
+	quickstart
+	introduction
+	hardware
+	connection_modes
+	system
+	internet
+	email
 	telephony
-	services/index
-	tech_concept/index
-	security/index
-	commandline/index
-	firmware/index
-	contribute/index
+	services
+	tech_concept
+	security
+	commandline
+	firmware
+	contribute
 

@@ -1,5 +1,0 @@
-Eine Systemsicherung durchführen
-================================
-
-sdf
-

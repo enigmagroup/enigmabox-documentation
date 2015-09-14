@@ -1,5 +1,0 @@
-Zugriffsrechte verwalten
-========================
-
-sdf
-
