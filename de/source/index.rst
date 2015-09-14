@@ -16,6 +16,7 @@ Enigmabox Handbuch
 	services
 	tech_concept
 	security
+	threat_model
 	commandline
 	firmware
 	contribute
