@@ -9,6 +9,8 @@ Die Sicherheit der Enigmabox
 Doppelte Umwandlung der IP-Adresse
 ==================================
 
+.. image:: images/double-NAT.png
+
 * Viele PCs sitzen hinter einer Enigmabox.
 * Viele Enigmaboxen sitzen hinter einem Server.
 * Deine IP Adresse wird zweimal umgeschrieben und dein Computer ist so doppelt abgeschirmt. Von aussen sieht man nur die IP-Adresse des Servers.
@@ -20,10 +22,14 @@ Absicherung der Internetverbindung
 
 Wo auch immer du dich befindest, ob in China, im Sudan, Israel oder Deutschland; du wirst immer "vertrauenswürdiges" Internet via Enigmabox-Server empfangen, vorbei an Strafverfolgungsbehörden, schnüffelnden Geheimdiensten oder bösen Buben vom Hotelzimmer nebenan, die es auf deinen Computer abgesehen haben (so geschehen beim Darkhotel-Angriff).
 
+.. image:: images/bad-dudes.png
+
 Die grüne Linie ist verschlüsselter Datenverkehr, niemand kann daran etwas manipulieren.
 
 Die Firewall ist standardmässig komplett dicht
 ==============================================
+
+.. image:: images/ebox-firewall.png
 
 * Regulärer, unverschlüsselter Netzwerkverkehr wird an der Enigmabox komplett blockiert.
 * Nur Verbindungen innerhalb des verschlüsselten Netzwerks sind erlaubt, und auch nur von Kontakten im Adressbuch.
@@ -42,10 +48,14 @@ cjdns: Die IPv6 ist deine Identität
 
 Das Netzwerkprotokoll, das die Enigmabox verwendet, heisst cjdns. Bei cjdns ist die IPv6 der "Fingerabdruck", ein kryptographisches Element mit einem dazugehörigen privaten Schlüssel. Verschlüsselung ist im Protokoll fix eingebaut, unverschlüsselte Kommunikation ist gar nicht erst möglich!
 
+.. image:: images/cjdns-privkey.png
+
 (Für Techies: cjdns benutzt crypto_box_curve25519xsalsa20poly1305 aus der NaCl Networking and Cryptography library)
 
 Fortgesetzte Geheimhaltung
 ==========================
+
+.. image:: images/forward-secrecy.png
 
 Für jede Kommunikation wird ein temporärer Schlüssel generiert. Sobald du den Telefonhörer aufhängst, wird dieser Schlüssel verworfen und nicht einmal du selber kannst die stattgefundene Konversation jemals wieder entschlüsseln. Diese Schlüssel werden auch während eines Gesprächs ab und an gewechselt.
 
@@ -57,12 +67,16 @@ Ende-zu-Ende Verschlüsselung
 * Alle Enigmabox E-Mails sind Ende-zu-Ende verschlüsselt.
 * Alle Enigmabox Telefongespräche sind Ende-zu-Ende verschlüsselt.
 
+.. image:: images/end-to-end.png
+
 Die Kommunikation zwischen zwei Partnern geschieht direkt von Enigmabox zu Enigmabox. Der Server in der Mitte leitet bloss die verschlüsselten Daten weiter. Enigmabox A hat den Datenstrom für Enigmabox B verschlüsselt, und nur Enigmabox B kann diesen entschlüsseln.
 
 Verschleierte Verbindungsdaten
 ==============================
 
 Niemand kann genau sagen, ob zwei Enigmaboxen miteinander kommunizieren.
+
+.. image:: images/metadata-obfs.png
 
 * Jede Enigmabox ist zu einem Server verbunden.
 * Die Server sind untereinander verbunden.
@@ -77,8 +91,12 @@ Niemand kann genau sagen, ob zwei Enigmaboxen miteinander kommunizieren.
 
 E-Mail header:
 
+.. image:: images/pgp-vs-ebox.png
+
 Alle Daten sind ein einen einzigen verschlüsselten Datenstrom eingebettet
 =========================================================================
+
+.. image:: images/pile-of-data.png
 
 Hier ist ein Beispiel von verschiedenen Verkehrsdaten. Ein Download benötigt viel Bandbreite während einer gewissen Zeitdauer, wogegen ein Livestream von Musik oder ein Telefongespräch nur ganz wenig Bandbreite beansprucht, dafür über einen längeren Zeitraum. Ein E-Mail senden, auf Updates überprüfen oder die Zeit synchronisieren generiert einzelne "Spitzen" im Diagramm der Bandbreitenauslastung.
 
@@ -91,10 +109,14 @@ Konstante Bitraten bei Telefongesprächen
 
 Im Klartext: Wenn ich nicht spreche, werden keine Daten übermittelt (bei Codecs mit variablen Bitraten). Das macht die Kommunikation anfällig für Verkehrsdatenanalyse.
 
+.. image:: images/vbr-wire.png
+
 Die Enigmabox erlaubt nur Codecs mit einer fixen Bitrate, um diesem Angriff zu widerstehen.
 
 Keine zentralen Serverdienste
 =============================
+
+.. image:: images/no-central-servers.png
 
 * Auf jeder Enigmabox läuft ein Mailserver.
 * Auf jeder Enigmabox läuft ein Telefonserver.
@@ -103,6 +125,8 @@ Keine zentralen Serverdienste
 
 Im Notfall kommunizieren die Enigmaboxen direkt untereinander
 =============================================================
+
+.. image:: images/p2p-mesh.png
 
 Das Protokoll cjdns hängt nicht von einer existierenden Internet-Infrastruktur ab. Du kannst Enigmaboxen direkt via Kabel oder Wlan verbinden. Sie formen ein Mesh-Netzwerk, welches unabhängig vom Internet läuft. Und du kannst wie gewohnt E-Mails darüber versenden und Telefongespräche führen.
 
