@@ -1,4 +1,0 @@
-Anschlussvarianten
-==================
-
-sdf

@@ -8,7 +8,7 @@ Enigmabox Handbuch
 	quickstart
 	introduction
 	hardware
-	connection_modes
+	use_cases
 	system
 	internet
 	telephony
