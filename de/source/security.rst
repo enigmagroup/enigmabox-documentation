@@ -105,7 +105,7 @@ Nach dem passieren der Enigmabox sieht man von den Daten nur noch deren "Silhoue
 Konstante Bitraten bei Telefongesprächen
 ========================================
 
-> Skype's variabler Bitrate-Codec lässt Rückschlüsse auf den Inhalt zu, egal wie gut die Verschlüsselung sein mag. Sätze konnten mit einer Genauigkeit zwischen 50%-90% identifiziert werden.
+    Skype's variabler Bitrate-Codec lässt Rückschlüsse auf den Inhalt zu, egal wie gut die Verschlüsselung sein mag. Sätze konnten mit einer Genauigkeit zwischen 50%-90% identifiziert werden.
 
 Im Klartext: Wenn ich nicht spreche, werden keine Daten übermittelt (bei Codecs mit variablen Bitraten). Das macht die Kommunikation anfällig für Verkehrsdatenanalyse.
 
@@ -175,9 +175,9 @@ Please set a password for the webinterface (http://box/passwords/).
 Schwache Passwörter
 ===================
 
-Use strong passwords. Generate random chars:
+Use strong passwords. Generate random chars::
 
-<code>tr -cd '[:alnum:]' < /dev/urandom | fold -w50 | head -n20</code>
+    <code>tr -cd '[:alnum:]' < /dev/urandom | fold -w50 | head -n20</code>
 
 ...add some chars of your own to it. Keep it safe.
 
