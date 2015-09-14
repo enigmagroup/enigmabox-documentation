@@ -11,8 +11,8 @@ Enigmabox Handbuch
 	connection_modes
 	system
 	internet
-	email
 	telephony
+	email
 	services
 	tech_concept
 	security
