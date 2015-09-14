@@ -1,5 +1,0 @@
-Lieferumfang
-============
-
-sdf
-

@@ -1,5 +1,0 @@
-Thunderbird konfigurieren
-=========================
-
-sdf
-

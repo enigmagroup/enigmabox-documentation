@@ -1,5 +1,0 @@
-Werbeblocker konfigurieren
-==========================
-
-sdf
-
