@@ -8,8 +8,6 @@ Lieferumfang
 
 .. image:: images/lieferumfang.png
 
-sdf
-
 ***************
 Der erste Start
 ***************
