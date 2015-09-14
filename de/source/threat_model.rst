@@ -2,16 +2,8 @@
 Bedrohungsmodell
 ================
 
-* Unencrypted storage (yet)
-* Eavesdropping of traffic on the Exit servers into the Internet
-* No password set for the admin interface after first boot
-* User defines weak passwords for the admin interface / email
-* 0day exploits (services are accessible from inside the LAN)
-* User is a Windows user and visits websites containing fuudibildli and malware
-* User logs into Facebook. Network-Traffic is identified, NSA runs QUANTUM and FOXACID and injects Malware
-* RF bugs, other persons in the room, laser microphones
-* Powered on smartphones in the same room
-* ...
+.. contents::
+   :local:
 
 **************************
 Unverschlüsselter Speicher
@@ -32,17 +24,17 @@ Unverschlüsselter Speicher
 * In case of seizure: get a new Enigmabox with a new IPv6 (the seized one may be bugged!)
 * INFORM YOUR CONTACTS that your Box has been seized, they should remove you from their address book
 
-***********************************
-Kein Passwort nach dem ersten Start
-***********************************
+*******************************************
+Kein Passwort gesetzt nach dem ersten Start
+*******************************************
 
 This is needed to enable access to the Enigmabox at all.
 
 Please set a password for the webinterface (http://box/passwords/).
 
-*******************
-Schwache Passwörter
-*******************
+**************************************
+Benutzer verwendet schwache Passwörter
+**************************************
 
 Use strong passwords. Generate random chars::
 
@@ -50,9 +42,9 @@ Use strong passwords. Generate random chars::
 
 ...add some chars of your own to it. Keep it safe.
 
-*************
-0day exploits
-*************
+**********************************************************
+0day exploits (Dienste sind innerhalb des LANs erreichbar)
+**********************************************************
 
 * Some services need to be accessible from the LAN port: Web, telephony, email, SSH
 * This services can be attacked from the inside of your LAN
@@ -63,9 +55,9 @@ Use strong passwords. Generate random chars::
 * Don't expose the LAN port of your Enigmabox to your whole network
 * Use a computer with an operating system built on free software to access the Enigmabox
 
-*******
-Malware
-*******
+*****************************************************************************
+Benutzer benutzt Windows und besucht Malware-verseuchte Fuudibildli-Webseiten
+*****************************************************************************
 
 When you visit a website, it may contain malware which infects your computer.
 
@@ -76,9 +68,9 @@ When you visit a website, it may contain malware which infects your computer.
 * Don't visit websites that may contain malware, e.g. porn sites, download sites (with many banners and "stuff")
 * Use the proxy server provided by the Enigmabox (Privoxy, http://box/webfilter/)
 
-*****************
-QUANTUM & FOXACID
-*****************
+**********************************************************************************************************************************
+Benutzer loggt sich in Facebook ein. Netzwerkverkehr ist identifiziert, NSA lässt QUANTUM und FOXACID laufen und injiziert Malware
+**********************************************************************************************************************************
 
 http://sites.miis.edu/cyber/2013/10/08/quantum-and-foxacid-nsatao-mitming-tor-users/
 

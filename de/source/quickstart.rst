@@ -25,9 +25,10 @@ Anschliessen der Komponenten
 
 .. image:: images/anschluesse-bild.jpg
 
-* Blaues Kabel: Router/Modem
-* Weisses Kabel: Computer
-* Schwarzes Kabel: Telefon
+| Blaues Kabel: Router/Modem
+| Weisses Kabel: Computer
+| Schwarzes Kabel: Telefon
+| 
 
 .. image:: images/anschluesse-phone.jpg
 
