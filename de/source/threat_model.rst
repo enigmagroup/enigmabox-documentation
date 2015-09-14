@@ -34,45 +34,51 @@ Folgende Informationen sind exponiert im Falle einer Hausdurchsuchung:
 Kein Passwort gesetzt nach dem ersten Start
 *******************************************
 
-This is needed to enable access to the Enigmabox at all.
+Das muss auch so sein für den ersten Start, damit du überhaupt auf die Administrationsoberfläche gelangst.
 
-Please set a password for the webinterface (http://box/passwords/).
+Setze sobald wie möglich ein Passwort für das Webinterface (siehe :ref:`set_password`).
 
 **************************************
 Benutzer verwendet schwache Passwörter
 **************************************
 
-Use strong passwords. Generate random chars::
+Benutze starke Passwörter. Lass dir Zufallszeichen generieren. Unter Linux::
 
-    <code>tr -cd '[:alnum:]' < /dev/urandom | fold -w50 | head -n20</code>
+    tr -cd '[:alnum:]' < /dev/urandom | fold -w50 | head -n20
 
-...add some chars of your own to it. Keep it safe.
+...mische selber noch eigene Zeichen rein. Benutze einen Passwortmanager, halte alles verschlüsselt.
 
-**********************************************************
-0day exploits (Dienste sind innerhalb des LANs erreichbar)
-**********************************************************
+******************************************************************
+0day exploits (gewisse Dienste sind innerhalb des LANs erreichbar)
+******************************************************************
 
-* Some services need to be accessible from the LAN port: Web, telephony, email, SSH
-* This services can be attacked from the inside of your LAN
+Folgende Dienste sind vom LAN aus erreichbar:
+
+* Webserver (Port 80 und 8080)
+* Telefonserver (Port 5060)
+* Mailserver (Port 25, 110 und 143)
+* Proxyserver (Port 8888)
+
+Diese Dienste können von Geräten angegriffen werden, die am "LAN"-Port der Enigmabox hängen. Wenn dort ein Switch hängt, alle Geräte am Switch. Wenn dort ein AccessPoint angeschlossen ist, alle Wlan-Geräte.
 
 **Abwehr:**
 
-* Use strong passwords
-* Don't expose the LAN port of your Enigmabox to your whole network
-* Use a computer with an operating system built on free software to access the Enigmabox
+* Benutze starke Passwörter
+* Entscheide dich, für was du die Enigmabox einsetzen willst: Ein Internetcafe braucht nur Internet zur Verfügung zu stellen, keine Telefonie, keine E-Mails. Verwende eine separate Enigmabox in diesem Fall.
+* Benutze einen Computer mit einem freien Betriebssystem, wo die Chance geringer ist, dass er mit einem Trojaner infiziert sein könnte.
 
 *****************************************************************************
 Benutzer benutzt Windows und besucht Malware-verseuchte Fuudibildli-Webseiten
 *****************************************************************************
 
-When you visit a website, it may contain malware which infects your computer.
+Wenn du eine Website besuchst, könnte sie Malware enthalten, die deinen Computer infiziert.
 
 **Abwehr:**
 
-* Don't use Microsoft Windows
-* Don't use Internet Explorer
-* Don't visit websites that may contain malware, e.g. porn sites, download sites (with many banners and "stuff")
-* Use the proxy server provided by the Enigmabox (Privoxy, http://box/webfilter/)
+* Benutz kein Windows
+* Benutz nicht den Internet Explorer
+* Besuche keine Webseiten, die möglicherweise Malware enthalten können, z.B. Pr0nsites, Downloadportale (mit vielen Bannern und "Zeugs"...)
+* Benutz den eingebauten Webfilter (siehe :ref:`webfilter`)
 
 **********************************************************************************************************************************
 Benutzer loggt sich in Facebook ein. Netzwerkverkehr ist identifiziert, NSA lässt QUANTUM und FOXACID laufen und injiziert Malware
@@ -80,47 +86,47 @@ Benutzer loggt sich in Facebook ein. Netzwerkverkehr ist identifiziert, NSA läs
 
 http://sites.miis.edu/cyber/2013/10/08/quantum-and-foxacid-nsatao-mitming-tor-users/
 
-* If you login into Facebook, Twitter, Linkedin, Gmail - *any* site that requires you to authenticate - your network traffic is identified and can be attacked
-* QUANTUM is an NSA server that replies *faster* than the Facebook server - redirecting you to FOXACID servers
-* FOXACID server impersonates Facebook and injects tailored malware into your computer
+* Wenn du dich auf Facebook anmeldest, oder auf Twitter, Linkedin, Gmail - *irgend* eine Seite, die nach einer Authentifizierung verlangt - sobald du eingeloggt bist, kann dein Netzwerkverkehr identifiziert und angegriffen werden.
+* QUANTUM ist ein Server der NSA, der *schneller* als der Facebook-Server antwortet und dich zu einem FOXACID-Server umleitet.
+* Der FOXACID-Server imitiert Facebook und jubelt dir lustige kleine Fernsteuerungsprogrämmli unter, die speziell auf deinen Computer zugeschnitten sind. Nur, dass am Ende nicht du deinen Computer fernsteuern kannst, sondern die NSA.
 
 .. image:: images/image-583940-galleryv9-bsyq.jpg
 
 **Abwehr:**
 
-* The Enigmabox helps you in hiding IPv4_public
-* You have to take care of the rest - do not login anywhere
-* Use a separate computer to configure the Enigmabox - and use this Box only for telephony and email - those internal services never leave the encrypted network
+* Die Enigmabox hilft dir, *IPv4_public* zu verschleiern
+* Für alles andere bist du selber verantwortlich - melde dich nirgendwo an
+* Benutz einen separaten Computer für die Konfiguration der Enigmabox - und benutz diese Box nur für Telefongespräche und E-Mails. Diese internen Dienste verlassen niemals das verschlüsselte Netzwerk.
 
 ***********************************************
 Wanzen, andere Personen im Raum, Lasermikrofone
 ***********************************************
 
-* Somebody planted a bug in your living room
-* A laser microphone recording the vibrations of your window glasses
-* Your neighbours can hear your shouting through the thin walls
-* Listening to your talking, bypassing every encryption
+* Jemand hat eine Wanze in deinem Wohnzimmer installiert
+* Ein Lasermikrofon zeichnet die Schwingungen an der Fensterscheibe auf
+* Deine Nachbarn hören dich durch die Wände reden
+* Umgehen so jede Verschlüsselung
 
 .. image:: images/las_mic2_306x241.jpg
 
 **Abwehr:**
 
-* Get a bug scanner and scan your room
-* Talk low-voiced
-* Talk in a window-less room
+* Leg' dir ein Wanzenspürgerät zu und scanne dein Zimmer
+* Rede leise
+* Führe Telefongespräche in einem fensterlosen Raum
 
 *******************************************
 Eingeschaltete Mobiltelefone im selben Raum
 *******************************************
 
-* Every powered on smartphone can be turned into a microphone
-* Remotely
-* Even if it's turned off
+Wir bekommen oft zu hören: "Ja aber, ist die Enigmabox sicher?"
+
+Die verwendete Verschlüsselung und das Verfahren, dass für jede Verbindung Sitzungsschlüssel verwendet werden, die sich alle paar Minuten ändern und am Ende verworfen werden, machen die Enigmabox ziemlich ziemlich sicher. **Es nützt jedoch nichts, wenn daneben ein eingeschaltetes Mobiltelefon liegt.** Behörden können aus der Ferne das Mikrofon aktivieren und alles aufzeichnen, vorbei an jeder besten Verschlüsselung. Das funktioniert auch, wenn das Telefon "ausgeschaltet" ist (ist es nämlich nicht!).
 
 **Abwehr:**
 
 .. image:: images/remove-battery.jpg
 
-* Remove the battery from *all* of the smartphones in the room where you are talking
-* Have no mobile phone at all, since your location can still be tracked - even if it's an "encrypted mobile phone"
+* Entferne die Batterien von *allen* Mobiltelefonen im Raum
+* Besitze überhaupt kein Mobiltelefon; da dein Standort immer noch aufgezeichnet wird, unabhängig davon, ob das ein verschlüsseltes Mobiltelefon ist oder nicht.
 

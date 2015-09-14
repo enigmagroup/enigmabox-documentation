@@ -15,6 +15,8 @@ Das globale Adressbuch
 
 sdf
 
+.. _set_password:
+
 Passwörter setzen
 *****************
 
