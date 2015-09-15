@@ -3,4 +3,4 @@
 cd ..
 rm -r build/html
 make html
-iceweasel build/html/index.html
+qutebrowser build/html/index.html

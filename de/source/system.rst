@@ -48,17 +48,43 @@ Wie man E-Mails sendet und empfängt, steht unter :ref:`email`.
 Das globale Adressbuch
 **********************
 
+Das globale Adressbuch ist ein Verzeichnis, in dem jeder seine Adresse publizieren kann, wenn er möchte. Der Vorteil: Der gegenseitige Adressaustausch entfällt. Das ist z.B. bei einem Verkaufsladen von Vorteil; der Inhaber publiziert seine Nummer im globalen Adressbuch und ist so sofort für potentielle Kunden erreichbar.
+
 .. image:: images/global-addressbook.png
+
+Damit man überhaupt für alle erreichbar ist, muss dafür die Firewall freigeschaltet werden. Das wird über die *globale Erreichbarkeit* geregelt. Standardmässig ist das ausgeschaltet.
+
+Globale Erreichbarkeit aktivieren
+=================================
+
+Klick im globalen Adressbuch auf den schwarzen Schalter "Deaktiviert".
+
+Die Firewall wird für alle im verschlüsselten Netzwerk freigeschaltet und der Knopf hat sich geändert in "Ich bin global erreichbar":
 
 .. image:: images/ga-activated.png
 
+Bestätige diese Änderung mit "Änderungen anwenden".
+
+Eigene Adresse im globalen Adressbuch publizieren
+=================================================
+
+sdf
+
 .. image:: images/ga-enter-number.png
+
+blaaa
 
 .. image:: images/ga-pending.png
 
+fuu
+
 .. image:: images/ga-confirmed.png
 
+baz
+
 .. image:: images/ga-rejected.png
+
+harr
 
 .. _set_password:
 
