@@ -1,4 +1,3 @@
-==================
 Enigmabox Handbuch
 ==================
 
@@ -10,10 +9,6 @@ Fertiggestellte Abschnitte:
 * Sicherheit
 * Bedrohungsmodell
 * System: Adressen verwalten
-
-******************
-Inhaltsverzeichnis
-******************
 
 .. toctree::
 	:includehidden:
