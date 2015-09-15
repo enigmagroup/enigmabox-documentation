@@ -68,23 +68,33 @@ Bestätige diese Änderung mit "Änderungen anwenden".
 Eigene Adresse im globalen Adressbuch publizieren
 =================================================
 
-sdf
+Klicke auf den blauen Knopf "Bearbeiten":
+
+.. image:: images/ga-edit.png
+
+Eine Eingabemaske erscheint:
 
 .. image:: images/ga-enter-number.png
 
-blaaa
+Wähle einen Namen und eine Telefonnummer, unter der du erreichbar sein willst. Telefonnummern im globalen Adressbuch fangen immer mit "01" an (wird bei der Eingabe automatisch vorangestellt).
+
+Bestätige deine Eingabe mit "Speichern".
+
+Der Status ist nun *ausstehend*:
 
 .. image:: images/ga-pending.png
 
-fuu
+Alle paar Stunden wird das globale Adressbuch synchronisiert und neue Einträge werden publiziert.
+
+Wenn alles geklappt hat, ist der Status grün *bestätigt*:
 
 .. image:: images/ga-confirmed.png
 
-baz
+Ist die Telefonnummer oder der Hostname schon besetzt, wird *zurückgewiesen*:
 
 .. image:: images/ga-rejected.png
 
-harr
+In diesem Fall eine andere Nummer/Hostname verwenden.
 
 .. _set_password:
 
