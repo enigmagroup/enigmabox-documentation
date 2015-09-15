@@ -9,6 +9,7 @@ Fertiggestellte Abschnitte:
 * Sicherheit
 * Bedrohungsmodell
 * System: Adressen verwalten
+* System: Globales Adressbuch
 
 .. toctree::
 	:includehidden:
