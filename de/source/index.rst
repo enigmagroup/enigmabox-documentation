@@ -1,5 +1,19 @@
+==================
 Enigmabox Handbuch
 ==================
+
+Work in progress.
+
+Fertiggestellte Abschnitte:
+
+* Schnellstart
+* Sicherheit
+* Bedrohungsmodell
+* System: Adressen verwalten
+
+******************
+Inhaltsverzeichnis
+******************
 
 .. toctree::
 	:includehidden:
