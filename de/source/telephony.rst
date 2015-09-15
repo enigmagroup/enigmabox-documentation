@@ -4,7 +4,8 @@
 Telefonie
 =========
 
-sdf
+.. contents::
+   :local:
 
 **********************
 Das Telefon einrichten

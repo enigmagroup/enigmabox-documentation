@@ -1,10 +1,13 @@
+========
 Internet
 ========
 
-sdf
+.. contents::
+   :local:
 
 .. _country_selection:
 
+**************
 Land auswählen
 **************
 
@@ -12,11 +15,12 @@ sdf
 
 .. _webfilter:
 
+**************************
 Werbeblocker konfigurieren
 **************************
 
 Firefox
--------
+=======
 
 Hier werde ich Ihnen am Beispiel des Firefox erläutern, wie sie die Proxy-Einstellungen nur für den Browser konfigurieren können, ohne dass das ganze System davon betroffen ist:
 
@@ -33,7 +37,7 @@ Hier werde ich Ihnen am Beispiel des Firefox erläutern, wie sie die Proxy-Einst
 .. image:: images/proxysettingsfirefox.jpg
 
 Windows
--------
+=======
 
 * Öffnen Sie über das Startmenü die Systemeinstellungen Ihres Computers:
 
@@ -73,7 +77,7 @@ und anschliessend auf "Internet Optionen":
 .. image:: images/firefoxproxy.jpg
 
 Mac
----
+===
 
 * Öffnen Sie die Einstellungen Ihres Macs:
 
@@ -105,7 +109,7 @@ Mac
 .. image:: images/firefoxproxy.jpg
 
 iPad
-----
+====
 
 * Tippen Sie auf dem Startbildschirm von IPhone oder IPad auf das Zahnrad-Symbol "Einstellungen".
 * Wechseln Sie zum Bereich "WLAN".
