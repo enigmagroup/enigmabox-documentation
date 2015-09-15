@@ -48,7 +48,17 @@ Wie man E-Mails sendet und empfängt, steht unter :ref:`email`.
 Das globale Adressbuch
 **********************
 
-sdf
+.. image:: images/global-addressbook.png
+
+.. image:: images/ga-activated.png
+
+.. image:: images/ga-enter-number.png
+
+.. image:: images/ga-pending.png
+
+.. image:: images/ga-confirmed.png
+
+.. image:: images/ga-rejected.png
 
 .. _set_password:
 
