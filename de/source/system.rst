@@ -57,13 +57,17 @@ Damit man überhaupt für alle erreichbar ist, muss dafür die Firewall freigesc
 Globale Erreichbarkeit aktivieren
 =================================
 
-Klick im globalen Adressbuch auf den schwarzen Schalter "Deaktiviert".
+Klick im globalen Adressbuch auf den schwarzen Schalter "Deaktiviert":
+
+.. image:: images/ga-disabled.png
 
 Die Firewall wird für alle im verschlüsselten Netzwerk freigeschaltet und der Knopf hat sich geändert in "Ich bin global erreichbar":
 
-.. image:: images/ga-activated.png
+.. image:: images/ga-available.png
 
-Bestätige diese Änderung mit "Änderungen anwenden".
+Bestätige diese Änderung mit "Änderungen anwenden":
+
+.. image:: images/apply-changes.png
 
 Eigene Adresse im globalen Adressbuch publizieren
 =================================================
