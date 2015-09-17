@@ -149,3 +149,9 @@ Signierte Updates
 
 Das Firmwareimage und alle Pakete sind mit einer SHA512-Prüfsumme und einem Zertifikat signiert. So ist sichergestellt, dass Updates a) nur von uns kommen können, und b) unterwegs nicht manipuliert wurden.
 
+*********************
+IP-Adressen statt DNS
+*********************
+
+Die Enigmabox verwendet zur Kommunikation mit den Servern ausschliesslich IP-Adressen, keine DNS-Namen. So kann ein Angreifer nicht via DNS Adressen fälschen und Verbindungen umleiten.
+
