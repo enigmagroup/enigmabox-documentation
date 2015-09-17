@@ -120,8 +120,8 @@ Passwort für das E-Mail Konto
 | **Passwort:** *[Zufallspasswort]* oder das von dir gesetzte Passwort (siehe :ref:`set_password_web_email`)
 |
 
-Passwort für Telefon
-====================
+Passwort für das Telefon
+========================
 
 | **Benutzer:** 100
 | **Passwort:** 100
