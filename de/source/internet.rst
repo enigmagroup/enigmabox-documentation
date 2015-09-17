@@ -37,7 +37,7 @@ Verändere die Reihenfolge, indem du ein Land mit der Maus an eine andere Stelle
 Wie lautet meine IP? In welchem Land befinde ich mich?
 ======================================================
 
-Wenn du herausfinden willst, wie die IP lautet, die grad "von aussen" sichtbar ist und in welchem Land deine Verbindung rauskommt: Die Website http://www.whereisip.net/ gibt Auskunft darüber:
+Wenn du herausfinden willst, wie die IP-Adresse lautet, die grad "von aussen" sichtbar ist und in welchem Land deine Verbindung rauskommt: Die Website http://www.whereisip.net/ gibt Auskunft darüber:
 
 .. image:: images/whereisip.png
 
@@ -47,104 +47,109 @@ Wenn du herausfinden willst, wie die IP lautet, die grad "von aussen" sichtbar i
 Werbeblocker konfigurieren
 **************************
 
+Der Werbeblocker läuft als Proxyserver auf der Enigmabox. Sag deinem Browser, dass er sich via dieses Proxies ins Internet verbinden soll, und die Werbung wird gefiltert.
+
+Proxyserver: *box*, Port *8888*
+
 Firefox
 =======
 
-Hier werde ich Ihnen am Beispiel des Firefox erläutern, wie sie die Proxy-Einstellungen nur für den Browser konfigurieren können, ohne dass das ganze System davon betroffen ist:
+Proxy-Einstellungen für den Browser konfigurieren, ohne dass das ganze System davon betroffen ist:
 
-* Gehen Sie im Firefox über den Button rechts oben im Browserfenster auf "Einstellungen":
+Gehe im Firefox über den Button rechts oben im Browserfenster auf "Einstellungen":
 
 .. image:: images/firefoxoptions.jpg
 
-* Nun klicken Sie zuerst auf "Erweitert" und anschliessend auf "Einstellungen...":
+Nun klickst du zuerst auf "Erweitert" und anschliessend auf "Einstellungen...":
 
 .. image:: images/advanced.jpg
 
-* Im sich anschliessend öffnenden Fenster stellen Sie bitte alles so ein, wie Sie es auf dem folgenden Foto sehen können:
+Stelle alles so ein, wie auf dem folgenden Bild ersichtlich:
 
 .. image:: images/proxysettingsfirefox.jpg
 
 Windows
 =======
 
-* Öffnen Sie über das Startmenü die Systemeinstellungen Ihres Computers:
+Öffne über das Startmenü die Systemeinstellungen deines Computers:
 
 .. image:: images/systemeinstellungen_win.jpg
 
-* Je nach eingestellter Oberfläche klicken Sie als Nächstes auf "Internet Optionen":
+Je nach eingestellter Oberfläche klick als nächstes auf "Internetoptionen":
 
 .. image:: images/internetoptionen.jpg
    
-oder auf "Netzwerk und Internet"
+oder auf "Netzwerk und Internet":
 
 .. image:: images/netzwerk_undinternet.jpg
    
-und anschliessend auf "Internet Optionen":
+und anschliessend auf "Internetoptionen":
 
 .. image:: images/internetoptionen2.jpg
 
-* Im sich darauf öffnenden Fenster wählen sie zuerst "Verbindungen" und dann "LAN settings":
+Im sich darauf öffnenden Fenster wählst du zuerst "Verbindungen" und dann "LAN-Einstellungen":
 
 .. image:: images/lan_settings.jpg
 
-* Stellen Sie nun alles so ein, wie es auf dem nächsten Foto zu sehen ist:
+Stelle alles so ein, wie auf dem folgenden Bild ersichtlich:
 
 .. image:: images/proxysettings.jpg
 
-* Klicken Sie zum Abschluss auf OK.
-* Kontrollieren Sie in ihrem Browser, ob sie auch dort die richtigen Einstellungen gesetzt haben. Dafür gehen Sie z.B. im Firefox über den Button rechts oben im Browserfenster auf "Einstellungen":
+Bestätige zum Abschluss mit OK.
+
+Kontrolliere in deinem Browser, ob du auch dort die richtigen Einstellungen gesetzt hast. Dafür gehst du z.B. im Firefox über den Button rechts oben im Browserfenster auf "Einstellungen":
 
 .. image:: images/firefoxoptions.jpg
 
-* Nun klicken Sie zuerst auf "Erweitert" und anschliessend auf "Einstellungen...":
+Nun klickst du zuerst auf "Erweitert" und anschliessend auf "Einstellungen...":
 
 .. image:: images/advanced.jpg
 
-* Im sich anschliessend öffnenden Fenster kontrollieren Sie bitte, dass die rot umkreiste Option ausgewählt ist. Wen nicht, wählen Sie sie aus und bestätigen sie mit OK:
+* Im sich anschliessend öffnenden Fenster kontrollierst du, dass die rot umkreiste Option ausgewählt ist. Wenn nicht, wählst du sie aus und bestätigst mit OK:
 
 .. image:: images/firefoxproxy.jpg
 
 Mac
 ===
 
-* Öffnen Sie die Einstellungen Ihres Macs:
+Öffne die Einstellungen deines Macs:
 
 .. image:: images/systemeinstellungen.jpg
 
-* Klicken Sie auf "Netzwerk":
+Klicke auf "Netzwerk":
 
 .. image:: images/netzwerk.jpg
 
-* Wählen Sie nun als Erstes die Netzwerkverbindung aus, über welche Sie mit der Enigmabox verbunden sind (In meinem Fall war das ein WLAN). Danach klicken Sie auf "Weitere Optionen...":
+Wähle nun als erstes die Netzwerkverbindung aus, über welche du mit der Enigmabox verbunden bist (In diesem Fall ist das ein WLAN). Danach klickst du auf "Weitere Optionen...":
 
 .. image:: images/weiteroptionen.jpg
 
-* Klicken Sie im neu geöffneten Fenster zuerst auf "Proxys". Danach setzen Sie den Haken bei "Web-Proxy (HTTP)" und Schreiben als Drittes die Adresse "box" in das entsprechende Eingabefeld. Wichtig ist auch den Port 8888 anzugeben! Wiederholen Sie den Vorgang für "Sicherer Web-Proxy (HTTPS)":
+Klicke im neu geöffneten Fenster zuerst auf "Proxies". Danach setzt du den Haken bei "Web-Proxy (HTTP)" und Schreibst als drittes die Adresse "box" in das entsprechende Eingabefeld. Wichtig ist auch, den Port 8888 mit anzugeben! Wiederhole den Vorgang für "Sicherer Web-Proxy (HTTPS)":
 
 .. image:: images/proxy.jpg
 
-* Schliessen Sie das Fenster mit OK.\\ \\
-* Kontrollieren Sie in ihrem Browser, ob sie auch dort die richtigen Einstellungen gesetzt haben. Dafür gehen Sie z.B. im Firefox über den Button rechts oben im Browserfenster auf "Einstellungen":
+Schliesse das Fenster mit OK
+
+Kontrolliere in deinem Browser, ob du auch dort die richtigen Einstellungen gesetzt hast. Dafür gehst du z.B. im Firefox über den Button rechts oben im Browserfenster auf "Einstellungen":
 
 .. image:: images/firefoxoptions.jpg
 
-* Nun klicken Sie zuerst auf "Erweitert" und anschliessend auf "Einstellungen...":
+Nun klickst du zuerst auf "Erweitert" und anschliessend auf "Einstellungen...":
 
 .. image:: images/advanced.jpg
 
-* Im sich anschliessend öffnenden Fenster kontrollieren Sie bitte, dass die rot umkreiste Option ausgewählt ist. Wen nicht, wählen Sie sie aus und bestätigen sie mit OK:
+Im sich anschliessend öffnenden Fenster kontrollierst du, dass die rot umkreiste Option ausgewählt ist. Wenn nicht, wählst du sie aus und bestätigst mit OK:
 
 .. image:: images/firefoxproxy.jpg
 
 iPad
 ====
 
-* Tippen Sie auf dem Startbildschirm von IPhone oder IPad auf das Zahnrad-Symbol "Einstellungen".
-* Wechseln Sie zum Bereich "WLAN".
-* Tippen Sie in der Zeile des Netzwerks, mit dem Sie verbunden sind, rechts auf den kleinen Pfeil nach rechts.
-* Im Bereich "HTTP-Proxy" schalten Sie den Schalter auf "Manuell". Darunter tragen Sie die im Feld "Server" den Namen "box" ein und als Port geben sie 8888 an.
-* Drücken Sie auf den Home-Knopf, um die Einstellungen zu speichern.
+* Tippe auf dem Startbildschirm von iPhone oder iPad auf das Zahnrad-Symbol "Einstellungen".
+* Wechsle zum Bereich "WLAN".
+* Tippe in der Zeile des Netzwerks, mit dem du verbunden bist, rechts auf den kleinen Pfeil nach rechts.
+* Im Bereich "HTTP-Proxy" stellst du den Schalter auf "Manuell". Darunter trägst du im Feld "Server" den Namen "box" ein und als Port gibst du *8888* an.
+Betätige den Home-Button, um die Einstellungen zu speichern.
 
-**Tipp**
-Um den Proxyserver wieder auszuschalten, wiederholen Sie die obigen Schritte. In Schritt 4. tippen Sie aber auf "Aus". 
+**Tipp:** Um den Proxyserver wieder auszuschalten, wiederhole die obigen Schritte. In Schritt 4. tippe aber auf "Aus".
 
