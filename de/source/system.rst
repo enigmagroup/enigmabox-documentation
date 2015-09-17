@@ -139,13 +139,36 @@ Passwort für den SSH-Zugang
 Passwort für die Administrationsoberfläche oder das E-Mail Konto setzen
 =======================================================================
 
+Klicke unter Passwörter auf "Bearbeiten" für die Administrationsoberfläche oder für das E-Mail Konto:
+
 .. image:: images/passwords.png
 
-***********************
-Passwörter zurücksetzen
-***********************
+.. image:: images/password-dialog.png
 
-sdf
+Gib dein gewünschtes Passwort ein.
+
+Für die Administrationsoberfläche lautet der Benutzername "admin".
+Der Benutzername für das E-Mail Konto heisst "mail@box".
+
+Bestätigen mit "Speichern".
+
+Danach die Änderungen mit "Änderungen anwenden" aktivieren:
+
+.. image:: images/pw-apply.png
+
+*********************
+Passwort zurücksetzen
+*********************
+
+Falls du dein Passwort für die Administrationsoberfläche vergessen hast und nicht mehr darauf zugreifen kannst:
+
+* Stelle sicher, dass die Enigmabox eingeschaltet ist
+* Stecke den mitgelieferten USB-Stick ein
+* Warte eine Minute
+* Entferne den USB-Stick
+* Greif auf die Administrationsoberfläche zu
+
+Auf dem USB-Stick ist das SSL-Zertifikat für die Aboverwaltung gespeichert. Es dient auch dazu, Passwörter zurückzusetzen. Die Enigmabox prüft, ob das Zertifikat auf dem Stick dasselbe ist wie im System und setzt dann das Passwort der Administrationsoberfläche zurück.
 
 .. _backup:
 
