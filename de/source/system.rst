@@ -176,7 +176,19 @@ Auf dem USB-Stick ist das SSL-Zertifikat für die Aboverwaltung gespeichert. Es 
 Eine Systemsicherung durchführen
 ********************************
 
-sdf
+.. image:: images/sysbackup-1-menu.png
+
+.. image:: images/sysbackup-2-start-assistant.png
+
+.. image:: images/sysbackup-3-check-usb.png
+
+.. image:: images/sysbackup-4-format-usb.png
+
+.. image:: images/sysbackup-5-start-backup.png
+
+.. image:: images/sysbackup-6-proceed.png
+
+.. image:: images/sysbackup-7-remove-usb.png
 
 ***************************
 Das System wiederherstellen
