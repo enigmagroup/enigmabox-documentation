@@ -143,3 +143,9 @@ Das Protokoll cjdns hängt nicht von einer existierenden Internet-Infrastruktur 
 
 Wir benutzen das Internet nur als "lange Antenne", um grosse Distanzen zu überbrücken.
 
+*****************
+Signierte Updates
+*****************
+
+Das Firmwareimage und alle Pakete sind mit einer SHA512-Prüfsumme und einem Zertifikat signiert. So ist sichergestellt, dass Updates a) nur von uns kommen können, und b) unterwegs nicht manipuliert wurden.
+
