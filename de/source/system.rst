@@ -184,7 +184,7 @@ Klick im Menü "Sichern & Wiederherstellen" auf "Vollständiges System":
 
 .. image:: images/sysbackup-2-start-assistant.png
 
-Starte den Systemwiederherstellungsassistenten.
+Starte den Systemsicherungsassistenten.
 
 .. image:: images/sysbackup-3-check-usb.png
 
@@ -210,17 +210,29 @@ Entferne den USB-Stick. Du wirst dann zur Übersichtsseite weitergeleitet.
 Das System wiederherstellen
 ***************************
 
+Klick im Menü "Sichern & Wiederherstellen" auf "Vollständiges System":
+
 .. image:: images/sysbackup-1-menu.png
 
 .. image:: images/sysrestore-2-start-assistant.png
 
+Starte den Systemwiederherstellungsassistenten.
+
 .. image:: images/sysrestore-3-check-usb.png
+
+Stecke den USB-Stick ein. Er wird geprüft, ob daraus eine Systemwiederherstellung gemacht werden kann.
 
 .. image:: images/sysrestore-4-start-restore.png
 
+Starte die Wiederherstellung.
+
 .. image:: images/sysrestore-5-progress.png
 
+Der Prozess kann einige Minuten dauern. Stelle sicher, dass die Enigmabox mit dem Internet verbunden ist.
+
 .. image:: images/sysrestore-6-remove-usb.png
+
+Entferne den USB-Stick. Du wirst dann zur Übersichtsseite weitergeleitet.
 
 ***************************
 SSL-Zertifikate importieren
