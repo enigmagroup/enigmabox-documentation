@@ -102,11 +102,44 @@ In diesem Fall eine andere Nummer/Hostname verwenden.
 
 .. _set_password:
 
-*****************
-Passwörter setzen
-*****************
+**********
+Passwörter
+**********
 
-sdf
+Passwort für die Administrationsoberfläche
+==========================================
+
+| **Benutzer:** admin
+| **Passwort:** *[keins]* oder das von dir gesetzte Passwort (siehe :ref:`set_password_web_email`)
+|
+
+Passwort für das E-Mail Konto
+=============================
+
+| **Benutzer:** mail@box
+| **Passwort:** *[Zufallspasswort]* oder das von dir gesetzte Passwort (siehe :ref:`set_password_web_email`)
+|
+
+Passwort für Telefon
+====================
+
+| **Benutzer:** 100
+| **Passwort:** 100
+|
+
+Passwort für den SSH-Zugang
+===========================
+
+| **Benutzer:** root
+| **Passwort:** *Zufallspasswort*, ersichtlich auf der Übersichtsseite der Administrationsoberfläche (siehe :ref:`webinterface`)
+|
+
+.. _set_password_web_email:
+
+Passwort für die Administrationsoberfläche oder das E-Mail Konto setzen
+=======================================================================
+
+.. image:: images/passwords.png
 
 ***********************
 Passwörter zurücksetzen

@@ -14,6 +14,7 @@ Enigmabox Handbuch
 	telephony
 	email
 	services
+	troubleshooting
 	tech_concept
 	security
 	threat_model

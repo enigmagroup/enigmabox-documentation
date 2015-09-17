@@ -23,6 +23,8 @@ Anschliessen der Komponenten
 
 .. image:: images/anschluesse-bild.jpg
 
+Hier in diesem Beispiel:
+
 | Blaues Kabel: Router/Modem
 | Weisses Kabel: Computer
 | Schwarzes Kabel: Telefon
@@ -33,6 +35,8 @@ Anschliessen der Komponenten
 Schliesse das andere Ende des schwarzen Kabels in die "LAN" Buchse des Telefons an.
 
 Verbinde das Stromkabel mit der Enigmabox. Beim ersten Start kann es bis zu 5 Minuten dauern, bis die Box bereit ist. Sie bringt die Software auf den neusten Stand und konfiguriert ihren Internetzugang.
+
+.. _webinterface:
 
 Zugriff auf die Administrationsoberfläche
 =========================================
