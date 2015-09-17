@@ -238,7 +238,25 @@ Entferne den USB-Stick. Du wirst dann zur Übersichtsseite weitergeleitet.
 SSL-Zertifikate importieren
 ***************************
 
-sdf
+**Wichtig: Stelle sicher, dass die Enigmabox eine Internetverbindung hat!**
+
+Klick im Menü "Sichern & Wiederherstellen" auf "SSL-Zertifikate":
+
+.. image:: images/ssl-import-1.png
+
+.. image:: images/ssl-import-2.png
+
+#. Wähle das SSL-Zertifikat aus
+#. Klicke auf "Import"
+
+.. image:: images/ssl-import-3.png
+
+Wenn alles geklappt hat, wird die Meldung "Import erfolgreich" angezeigt.
+
+Was passiert im Hintergrund?
+============================
+
+Die Enigmabox verbindet sich mit den SSL-Zertifikaten zum Administrationsserver, holt sich die Zugangsdaten zu den Servern und publiziert ihren *cjdns Public Key*, damit ihre IPv6 auf den Servern freigeschaltet wird und die verschlüsselte Internetverbindung aufgebaut werden kann.
 
 **************************
 Die Firmware aktualisieren
