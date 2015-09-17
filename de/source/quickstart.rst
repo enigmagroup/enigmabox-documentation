@@ -17,9 +17,9 @@ Anschliessen der Komponenten
 
 .. image:: images/box-anschluesse.png
 
-* Schliesse das Netzwerkkabel vom Router/Modem in die "Internet" Buchse der Enigmabox an.
-* Schliesse das Netzwerkkabel vom Computer in die "LAN" Buchse der Enigmabox an.
-* Schliesse das Netzwerkkabel vom Telefon in die "LAN" Buchse der Enigmabox an.
+* Verbinde den Router/Modem über ein Netzwerkkabel mit der "Internet" Buchse der Enigmabox.
+* Verbinde den Computer über ein Netzwerkkabel mit der "LAN" Buchse der Enigmabox.
+* Verbinde das Telefon über ein Netzwerkkabel mit der "LAN" Buchse der Enigmabox.
 
 .. image:: images/anschluesse-bild.jpg
 
@@ -32,7 +32,7 @@ Hier in diesem Beispiel:
 
 .. image:: images/anschluesse-phone.jpg
 
-Schliesse das andere Ende des schwarzen Kabels in die "LAN" Buchse des Telefons an.
+Wichtig: Stecke das andere Ende des schwarzen Netzwerk-Kabels in die "LAN" Buchse des Telefons.
 
 Verbinde das Stromkabel mit der Enigmabox. Beim ersten Start kann es bis zu 5 Minuten dauern, bis die Box bereit ist. Sie bringt die Software auf den neusten Stand und konfiguriert ihren Internetzugang.
 
