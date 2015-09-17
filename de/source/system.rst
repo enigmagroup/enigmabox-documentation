@@ -176,19 +176,35 @@ Auf dem USB-Stick ist das SSL-Zertifikat für die Aboverwaltung gespeichert. Es 
 Eine Systemsicherung durchführen
 ********************************
 
+Halte einen USB-Stick bereit, der gross genug ist, um alle Daten zu sichern (4GB empfohlen). Verwende NICHT den mitgelieferten USB-Stick! Der wird zum zurücksetzen des Passwortes verwendet.
+
+Klick im Menü "Sichern & Wiederherstellen" auf "Vollständiges System":
+
 .. image:: images/sysbackup-1-menu.png
 
 .. image:: images/sysbackup-2-start-assistant.png
 
+Starte den Systemwiederherstellungsassistenten.
+
 .. image:: images/sysbackup-3-check-usb.png
+
+Stecke den USB-Stick ein. Er wird geprüft, ob genügend Platz für die Sicherung vorhanden ist.
 
 .. image:: images/sysbackup-4-format-usb.png
 
+Formatiere den USB-Stick. ALLE DATEN AUF DEM STICK WERDEN ÜBERSCHRIEBEN!
+
 .. image:: images/sysbackup-5-start-backup.png
+
+Starte die Sicherung.
 
 .. image:: images/sysbackup-6-proceed.png
 
+In einem kleinen Ausgabefenster kannst du den Fortschritt verfolgen. Am Schluss kommt die Meldung "*If you see no /dev/sdb1 or /mnt there, everything is fine.*" Prüfe in der in der Ausgabe gleich darüber, ob das auch so ist und fahre dann mit Schritt 4 fort.
+
 .. image:: images/sysbackup-7-remove-usb.png
+
+Entferne den USB-Stick. Du wirst dann zur Übersichtsseite weitergeleitet.
 
 ***************************
 Das System wiederherstellen
