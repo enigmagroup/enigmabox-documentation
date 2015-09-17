@@ -194,7 +194,17 @@ Eine Systemsicherung durchführen
 Das System wiederherstellen
 ***************************
 
-sdf
+.. image:: images/sysbackup-1-menu.png
+
+.. image:: images/sysrestore-2-start-assistant.png
+
+.. image:: images/sysrestore-3-check-usb.png
+
+.. image:: images/sysrestore-4-start-restore.png
+
+.. image:: images/sysrestore-5-progress.png
+
+.. image:: images/sysrestore-6-remove-usb.png
 
 ***************************
 SSL-Zertifikate importieren
