@@ -206,6 +206,8 @@ In einem kleinen Ausgabefenster kannst du den Fortschritt verfolgen. Am Schluss 
 
 Entferne den USB-Stick. Du wirst dann zur Übersichtsseite weitergeleitet.
 
+.. _restore:
+
 ***************************
 Das System wiederherstellen
 ***************************
@@ -262,5 +264,32 @@ Die Enigmabox verbindet sich mit den SSL-Zertifikaten zum Administrationsserver,
 Die Firmware aktualisieren
 **************************
 
-sdf
+Die Firmwareaktualisierung schreibt das komplette Speicherabbild neu auf die Festplatte/Speicherkarte. Dabei werden E-Mails, Hypesites, /wiki und /owncloud gelöscht. Sichere dein System, bevor du die Firmwareaktualisierung machst (siehe :ref:`backup`)!
+
+Die Firmwareaktualisierung eignet sich auch, um ein fehlerhaftes System auf den Originalzustand zurückzusetzen.
+
+Schritt 1: Image herunterladen
+==============================
+
+.. image:: images/fwupgrade-1.png
+
+Lädt das neuste Firmwareimage vom Server herunter.
+
+Schritt 2: Image überprüfen
+===========================
+
+.. image:: images/fwupgrade-2.png
+
+Überprüft, ob die Daten korrekt übertragen und unterwegs nicht manipuliert wurden.
+
+Schritt 3: Image schreiben
+==========================
+
+Wenn alles in Ordnung ist, Image schreiben:
+
+.. image:: images/fwupgrade-3.png
+
+.. image:: images/fwupgrade-4.png
+
+Der Prozess dauert eine Weile. Die Enigmabox startet nach dem Schreiben der Firmware neu und stellt die Grundeinstellungen wie IPv6, Passwörter und Konfigurationen wieder her. E-Mails, Hypesites, /wiki und /owncloud müssen allerdings über die Systemwiederherstellung wiederhergestellt werden (siehe :ref:`restore`).
 
