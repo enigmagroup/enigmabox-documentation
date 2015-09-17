@@ -11,7 +11,35 @@ Internet
 Land auswählen
 **************
 
-sdf
+Wähle, über welches Land du surfen willst. Also wenn du z.B. Ungarn als Land auswählst, dann verhält es sich so, als ob du wirklich grad in Ungarn in einem Internetcafé surfst. Und so mit allen Ländern.
+
+Folgende Länder stehen zur Auswahl:
+
+* Schweiz
+* Ungarn
+* Schweden
+* Deutschland
+* Vereinigte Daten von Amerika
+
+.. image:: images/country-selection.png
+
+In diesem Beispiel:
+
+.. image:: images/country-selection-zoom.png
+
+* Die Schweiz ist das aktuell gewählte Land.
+* Falls die Verbindung zum Schweizer Server wegbricht, springt die Verbindung auf Ungarn.
+* Die anderen Länder werden nicht berücksichtigt ("Inaktiv").
+* Ist Ungarn nicht erreichbar, springt die Verbindung wieder auf die Schweiz.
+
+Verändere die Reihenfolge, indem du ein Land mit der Maus an eine andere Stelle ziehst. Markiere Länder, die im Fehlerfall als Alternative berücksichtigt werden sollen.
+
+Wie lautet meine IP? In welchem Land befinde ich mich?
+======================================================
+
+Wenn du herausfinden willst, wie die IP lautet, die grad "von aussen" sichtbar ist und in welchem Land deine Verbindung rauskommt: Die Website http://www.whereisip.net/ gibt Auskunft darüber:
+
+.. image:: images/whereisip.png
 
 .. _webfilter:
 

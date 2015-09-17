@@ -240,7 +240,7 @@ Entferne den USB-Stick. Du wirst dann zur Übersichtsseite weitergeleitet.
 SSL-Zertifikate importieren
 ***************************
 
-**Wichtig: Stelle sicher, dass die Enigmabox eine Internetverbindung hat!**
+.. warning:: **Wichtig: Stelle sicher, dass die Enigmabox eine Internetverbindung hat!**
 
 Klick im Menü "Sichern & Wiederherstellen" auf "SSL-Zertifikate":
 
@@ -263,6 +263,8 @@ Die Enigmabox verbindet sich mit den SSL-Zertifikaten zum Administrationsserver,
 **************************
 Die Firmware aktualisieren
 **************************
+
+.. note:: Nicht verfügbar auf dem Banana Pi.
 
 Die Firmwareaktualisierung schreibt das komplette Speicherabbild neu auf die Festplatte/Speicherkarte. Dabei werden E-Mails, Hypesites, /wiki und /owncloud gelöscht. Sichere dein System, bevor du die Firmwareaktualisierung machst (siehe :ref:`backup`)!
 
