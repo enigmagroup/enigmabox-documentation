@@ -156,7 +156,7 @@ Tippe in der Zeile des Netzwerks, mit dem du verbunden bist, rechts auf das klei
 
 Im Bereich "HTTP-Proxy" stellst du den Schalter auf "Manuell". Darunter trägst du im Feld "Server" den Namen "box" ein und als Port gibst du *8888* an:
 
-.. image::images/ProxySettingsIPad.jpg
+.. image:: images/ProxySettingsIPad.jpg
 
 Betätige den Home-Button, um die Einstellungen zu speichern.
 
