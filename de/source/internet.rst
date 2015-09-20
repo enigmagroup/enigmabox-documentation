@@ -145,10 +145,19 @@ Im sich anschliessend öffnenden Fenster kontrollierst du, dass die rot umkreist
 iPad
 ====
 
-* Tippe auf dem Startbildschirm von iPhone oder iPad auf das Zahnrad-Symbol "Einstellungen".
-* Wechsle zum Bereich "WLAN".
-* Tippe in der Zeile des Netzwerks, mit dem du verbunden bist, rechts auf den kleinen Pfeil nach rechts.
-* Im Bereich "HTTP-Proxy" stellst du den Schalter auf "Manuell". Darunter trägst du im Feld "Server" den Namen "box" ein und als Port gibst du *8888* an.
+Tippe auf dem Startbildschirm von iPhone oder iPad auf das Zahnrad-Symbol "Einstellungen":
+
+.. image:: images/HomeBildschirmIPad.jpg
+
+Wechsle zum Bereich "WLAN" und wähle dein WLAN aus, welches mit der Enigmabox verbunden ist.
+Tippe in der Zeile des Netzwerks, mit dem du verbunden bist, rechts auf das kleine blaue i im Kreis:
+
+.. image:: images/WlanIPad.jpg
+
+Im Bereich "HTTP-Proxy" stellst du den Schalter auf "Manuell". Darunter trägst du im Feld "Server" den Namen "box" ein und als Port gibst du *8888* an:
+
+.. image::images/ProxySettingsIPad.jpg
+
 Betätige den Home-Button, um die Einstellungen zu speichern.
 
 **Tipp:** Um den Proxyserver wieder auszuschalten, wiederhole die obigen Schritte. In Schritt 4. tippe aber auf "Aus".
