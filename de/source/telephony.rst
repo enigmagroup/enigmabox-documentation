@@ -13,15 +13,45 @@ Das Telefon einrichten
 
 sdf
 
+*************
+Statusabfrage
+*************
+
+Die Telefonnummer "1" gibt Informationen zur Verbindung der Enigmabox, das Abo, erhaltene E-Mails und erreichbare Kontakte im Adressbuch aus.
+
 ******************
 Telefonkonferenzen
 ******************
 
-sdf
+Telefonkonferenzen funktionieren heute meistens so, dass sich alle Teilnehmer in einen zentralen Server einwählen und danach wie in einem Sitzungszimmer miteinander reden können.
+
+Nun - bei der Enigmabox gibt es keine solchen zentralen Server, die das ermöglichen. Deshalb haben wir ein wenig nachgedacht und sind zu folgendem Schluss gekommen:
+
+**Jede Enigmabox ist ein Konferenzserver!**
+
+Dem Konferenzraum auf deiner Enigmabox beitreten
+================================================
+
+Wähle die Nummer "8" auf dem Telefon. \*Dadü* - du bist in deinem Konferenzraum.
+
+Einem Konferenzraum auf einer anderen Enigmabox beitreten
+=========================================================
+
+Bei jedem Anruf ertönt zuerst ein "du-diit"-Signalton. Du hast nun eine Sekunde Zeit, die Taste "8" zu betätigen - dann landest du im Konferenzraum der angerufenen Enigmabox.
+
+Falls du nach dem Signalton nichts unternimmst, wird der Anruf normal durchgestellt und das Telefon klingelt.
+
+So können sich ganz viele Teilnehmer in eine Enigmabox einwählen und dann eine Telefonkonferenz miteinander führen.
 
 ****************
 Anrufbeantworter
 ****************
+
+Der Anrufbeantworter springt automatisch an, wenn nach 30 Sekunden klingeln das Telefon nicht abgenommen wurde. Die aufgezeichnete Nachricht wird als E-Mail gespeichert und landet in der Inbox des Angerufenen.
+
+************************
+Videotelefonie mit Jitsi
+************************
 
 sdf
 
