@@ -11,7 +11,14 @@ Telefonie
 Das Telefon einrichten
 **********************
 
-sdf
+Verbinde das mitgelieferte Grandstream-Telefon mit der Enigmabox und warte ein paar Minuten. Das Telefon holt die Einstellungen von der Enigmabox und konfiguriert sich von alleine.
+
+Für andere SIP-kompatible Telefone, hier die Verbindungsdaten für den Telefonserver:
+
+| **Server:** box
+| **Benutzer:** 100
+| **Passwort:** 100
+|
 
 *************
 Statusabfrage
