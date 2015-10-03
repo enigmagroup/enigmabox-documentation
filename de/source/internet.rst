@@ -51,6 +51,11 @@ Der Werbeblocker läuft als Proxyserver auf der Enigmabox. Sag deinem Browser, d
 
 Proxyserver: *box*, Port *8888*
 
+Windows 10 Stasi-Features blockieren
+====================================
+
+sdf
+
 Firefox
 =======
 

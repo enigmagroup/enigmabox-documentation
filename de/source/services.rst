@@ -13,6 +13,11 @@ Ein Wiki einrichten
 
 sdf
 
+Pastebin einrichten
+*******************
+
+sdf
+
 OwnCloud konfigurieren
 **********************
 
