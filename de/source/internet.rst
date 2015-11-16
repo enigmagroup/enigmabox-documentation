@@ -54,7 +54,125 @@ Proxyserver: *box*, Port *8888*
 Windows 10 Stasi-Features blockieren
 ====================================
 
-sdf
+Windows 10 wurde von mehreren Seiten als Abhörmaschine bezeichnet.
+
+Es baut im Hintergrund Verbindungen zu folgenden Diensten auf::
+
+    vortex.data.microsoft.com
+    vortex-win.data.microsoft.com
+    telecommand.telemetry.microsoft.com
+    telecommand.telemetry.microsoft.com.nsatc.net
+    oca.telemetry.microsoft.com
+    oca.telemetry.microsoft.com.nsatc.net
+    sqm.telemetry.microsoft.com
+    sqm.telemetry.microsoft.com.nsatc.net
+    watson.telemetry.microsoft.com
+    watson.telemetry.microsoft.com.nsatc.net
+    redir.metaservices.microsoft.com
+    choice.microsoft.com
+    choice.microsoft.com.nsatc.net
+    df.telemetry.microsoft.com
+    reports.wes.df.telemetry.microsoft.com
+    wes.df.telemetry.microsoft.com
+    services.wes.df.telemetry.microsoft.com
+    sqm.df.telemetry.microsoft.com
+    telemetry.microsoft.com
+    watson.ppe.telemetry.microsoft.com
+    telemetry.appex.bing.net
+    telemetry.urs.microsoft.com
+    telemetry.appex.bing.net
+    settings-sandbox.data.microsoft.com
+    vortex-sandbox.data.microsoft.com
+    survey.watson.microsoft.com
+    watson.live.com
+    watson.microsoft.com
+    statsfe2.ws.microsoft.com
+    corpext.msitadfs.glbdns2.microsoft.com
+    compatexchange.cloudapp.net
+    cs1.wpc.v0cdn.net
+    a-0001.a-msedge.net
+    statsfe2.update.microsoft.com.akadns.net
+    sls.update.microsoft.com.akadns.net
+    fe2.update.microsoft.com.akadns.net
+    diagnostics.support.microsoft.com
+    corp.sts.microsoft.com
+    statsfe1.ws.microsoft.com
+    pre.footprintpredict.com
+    i1.services.social.microsoft.com
+    i1.services.social.microsoft.com.nsatc.net
+    feedback.windows.com
+    feedback.microsoft-hohm.com
+    feedback.search.microsoft.com
+    rad.msn.com
+    preview.msn.com
+    ad.doubleclick.net
+    ads.msn.com
+    ads1.msads.net
+    ads1.msn.com
+    a.ads1.msn.com
+    a.ads2.msn.com
+    adnexus.net
+    adnxs.com
+    aidps.atdmt.com
+    apps.skype.com
+    az361816.vo.msecnd.net
+    az512334.vo.msecnd.net
+    a.rad.msn.com
+    a.ads2.msads.net
+    ac3.msn.com
+    aka-cdn-ns.adtech.de
+    b.rad.msn.com
+    b.ads2.msads.net
+    b.ads1.msn.com
+    bs.serving-sys.com
+    c.msn.com
+    cdn.atdmt.com
+    cds26.ams9.msecn.net
+    c.atdmt.com
+    db3aqu.atdmt.com
+    ec.atdmt.com
+    flex.msn.com
+    g.msn.com
+    h1.msn.com
+    live.rads.msn.com
+    msntest.serving-sys.com
+    m.adnxs.com
+    m.hotmail.com
+    pricelist.skype.com
+    rad.live.com
+    secure.flashtalking.com
+    static.2mdn.net
+    s.gateway.messenger.live.com
+    secure.adnxs.com
+    sO.2mdn.net
+    ui.skype.com
+    www.msftncsi.com
+    msftncsi.com
+    view.atdmt.com
+    msnbot-65-55-108-23.search.msn.com
+    settings-win.data.microsoft.com
+    schemas.microsoft.akadns.net
+    a-0001.a-msedge.net
+    a-0002.a-msedge.net
+    a-0003.a-msedge.net
+    a-0004.a-msedge.net
+    a-0005.a-msedge.net
+    a-0006.a-msedge.net
+    a-0007.a-msedge.net
+    a-0008.a-msedge.net
+    a-0009.a-msedge.net
+    msedge.net
+    a-msedge.net
+    lb1.www.ms.akadns.net
+    pre.footprintpredict.com
+    vortex-bn2.metron.live.com.nsatc.net
+    vortex-cy2.metron.live.com.nsatc.net
+
+Im Webinterface kann ein zusätzlicher Filter eingeschaltet werden, der diese Verbindungen ins Leere laufen lässt.
+
+.. image:: images/win10stasi.png
+
+Wir raten grundsätzlich davon ab, Windows 10 zu verwenden.
 
 Firefox
 =======
