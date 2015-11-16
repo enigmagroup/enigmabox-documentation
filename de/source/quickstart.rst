@@ -12,6 +12,8 @@ Lieferumfang
 Der erste Start
 ***************
 
+.. _wiring:
+
 Anschliessen der Komponenten
 ============================
 
