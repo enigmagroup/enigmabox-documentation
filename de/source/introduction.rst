@@ -19,7 +19,7 @@ Die Nazis schützten mit der von ihnen entwickelten Enigma-Maschinen ihre Funksp
 
 Dies hatte den damaligen Kriegsverlauf dramatisch verändert. Es wird von symbolischen 2 Jahre verkürztem Krieg gesprochen und sogar davon dass die Nazis Ihr drittes Reich nicht hätten aufgeben müssen.
 
-Der Vorsprung einer abhörsicheren Kommunikation wird auch in Zukunft nicht so einfach mit Geld aufzuwiegen sein.Der Wert von Funksprüchen von damals kann heute durchaus mit dem Wert der Datenströme auf dem Internet verglichen werden.
+Der Vorsprung einer abhörsicheren Kommunikation wird auch in Zukunft nicht so einfach mit Geld aufzuwiegen sein. Der Wert von Funksprüchen von damals kann heute durchaus mit dem Wert der Datenströme auf dem Internet verglichen werden.
 
 Nur die Dimensionen sind gewaltig gewachsen und es wurde ein Zeitgeist geschaffen der die Kommunikationspartner im Glauben lässt dass Verschlüsselung nicht nötig sei. Nur so ist es heute noch möglich die Daten abhören zu können. Moderne Systeme wie zum Beispiel die Enigmabox können weder mit statistischen Methoden, noch nachträglich mit einem erbeuteten Geheimschlüssel entschlüsselt werden. Die Daten sind auch nicht einfach mit Antennen abhorchbar. Sie müssen mühsam in aus einem Mesh-Netz herausgefischt werden. Das übernehmen zwar riesige Rechencenter. Aber die Enigmabox hat im Vergleich zu den 4 Walzen der Enigma-Maschine ungemein komplexere Verschlüsselungsalgorithmen die nur mit einem gewaltigen Rechenaufwand entschlüsselt werden können, wenn überhaupt. Und die Daten nehmen in einem Mesh-Netz immer wieder andere Routen. Die Routen können auch aus eigenen Datenleitungen und WLAN Netzen bestehen. So scheitert eine erfolgreiche Entschlüsselung bereits bei der Datenbeschaffung.
 
