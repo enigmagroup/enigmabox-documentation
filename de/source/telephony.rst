@@ -60,7 +60,52 @@ Der Anrufbeantworter springt automatisch an, wenn nach 30 Sekunden klingeln das 
 Videotelefonie mit Jitsi
 ************************
 
-sdf
+Jitsi ist ein Softwaretelefon. Wenn du eine Webcam besitzt, ist alles vorbereitet für die verschlüsselte Videotelefonie!
+
+Jitsi herunterladen
+===================
+
+Download von folgender URL: https://jitsi.org/Main/Download
+
+Jitsi einrichten
+================
+
+Klicke auf "Datei/Konto hinzufügen...", um ein neues Konto zu erstellen:
+
+.. image:: images/jitsi1.png
+
+Verwende *100@box* als SIP-Kennung, und *100* als Passwort:
+
+.. image:: images/jitsi2.png
+
+Klicke auf "Hinzufügen".
+
+Blende die Wähltastatur ein und rufe zum Test die Nummer 1 an.
+
+.. image:: images/jitsi3.png
+
+Wenn alles geklappt hat, wirst du eine Stimme hören, die den Systemstatus vorliest.
+
+Einen Kontakt hinzufügen
+========================
+
+Klicke mit der rechten Maustaste im Kontaktfeld und dann auf "Kontakt hinzufügen...".
+
+.. image:: images/jitsi-add-contact.png
+
+Trage dort die Telefonnummer des Kontaktes ein, den du hinzufügen möchtest. Das ist die gleiche Telefonnummer wie im Enigmabox-Adressbuch. Vergib einen Namen.
+
+Videoanruf starten
+==================
+
+Klicke mit der rechten Maustaste auf den neu hinzugefügten Kontakt, und dann auf "Videoanruf":
+
+.. image:: images/jitsi-videocall.png
+
+Der Videoanruf startet.
+
+.. image:: images/jitsi-videocall-running.png
+
 
 ********************************************
 Telefonie auf einem Android-Handy einrichten
