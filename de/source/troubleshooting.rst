@@ -2,6 +2,9 @@
 Fehlerbehebung
 ==============
 
+.. contents::
+   :local:
+
 Ich kann die Box nicht erreichen, was muss ich tun?
 ===================================================
 
@@ -18,6 +21,11 @@ Weitere Möglichkeiten, um auf das Webinterface zuzugreifen:
   * http://192.168.101.1
 
 Sind die Kabel richtig angeschlossen? Siehe: :ref:`wiring`
+
+Ich habe mein Passwort für das Webinterface vergessen
+=====================================================
+
+Du kannst es zurücksetzen, siehe: :ref:`reset_pw`
 
 Status via Telefon abfragen
 ===========================

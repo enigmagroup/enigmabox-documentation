@@ -156,6 +156,8 @@ Danach die Änderungen mit "Änderungen anwenden" aktivieren:
 
 .. image:: images/pw-apply.png
 
+.. _reset_pw:
+
 *********************
 Passwort zurücksetzen
 *********************
