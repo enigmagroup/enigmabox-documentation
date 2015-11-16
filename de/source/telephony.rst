@@ -13,7 +13,7 @@ Das Telefon einrichten
 
 Verbinde das mitgelieferte Grandstream-Telefon mit der Enigmabox und warte ein paar Minuten. Das Telefon holt die Einstellungen von der Enigmabox und konfiguriert sich von alleine.
 
-Für andere SIP-kompatible Telefone, hier die Verbindungsdaten für den Telefonserver:
+Für andere `SIP-kompatible Telefone <hhttps://de.wikipedia.org/wiki/SIP-Telefon>`_, hier die Verbindungsdaten für den Telefonserver:
 
 | **Server:** box
 | **Benutzer:** 100
@@ -60,7 +60,7 @@ Der Anrufbeantworter springt automatisch an, wenn nach 30 Sekunden klingeln das 
 Videotelefonie mit Jitsi
 ************************
 
-Jitsi ist ein Softwaretelefon. Wenn du eine Webcam besitzt, ist alles vorbereitet für die verschlüsselte Videotelefonie!
+Jitsi ist ein Open-Source-Softwaretelefon. Wenn du eine Webcam besitzt steht einer verschlüsselten Videotelefonie am PC oder Laptop nichts entgegen!
 
 Jitsi herunterladen
 ===================
@@ -111,7 +111,7 @@ Der Videoanruf startet.
 Telefonie auf einem Android-Handy einrichten
 ********************************************
 
-Hier werde ich Ihnen Schritt für Schritt zeigen, wie Sie ihr Android-Handy in ein EnigmaTelefon umfunktionieren können. Voraussetzung ist aber, dass Sie ihre EnigmaBox über ein WIFI erreichen können, Sie also am LAN-Anschluss ihrer EnigmaBox einen WIFI-Accesspoint angeschlossen haben:
+Hier wird Schritt für Schritt gezeigt, wie Sie ihr Android-Handy in ein EnigmaTelefon umfunktionieren können. Voraussetzung ist, dass Sie ihre EnigmaBox über ein WLAN erreichen können, Sie also am LAN-Anschluss ihrer EnigmaBox einen WLAN-Accesspoint angeschlossen haben:
 
 * Tippen Sie zuerst auf dem Home-Bildschirm Ihres Android-Handys auf "Telefon"
   
@@ -138,6 +138,6 @@ Hier werde ich Ihnen Schritt für Schritt zeigen, wie Sie ihr Android-Handy in e
 .. image:: images/set_konto.jpg
 
 * Die Einstellungen werden gespeichert, sobald sie zum vorherigen Menü zurückkehren. Dort werden Sie zu unterst den Menüeintrag "Internetanrufe tätigen" finden. Tippen Sie darauf und wählen Sie die Option "Bei jedem Anruf fragen" aus.
-* Nun sollten Sie fähig sein, Anrufe von ihrem Android-Handy auf andere Enigmaboxen tätigen zu können oder Anrufe von anderen auf ihre Box mit ihrem Android-Handy entgegen zu nehmen.
+* Nun sollten Sie - solange Sie sich im WLAN befinden - fähig sein, Anrufe von ihrem Android-Handy auf andere Enigmaboxen tätigen zu können oder Anrufe von anderen auf ihre Box mit ihrem Android-Handy entgegen zu nehmen.
 
 
