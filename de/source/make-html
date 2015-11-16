@@ -3,4 +3,4 @@
 cd ..
 rm -r build/html
 make html
-qutebrowser file:///home/longneck/x/enigmabox-documentation/de/build/html/telephony.html#videotelefonie-mit-jitsi
+qutebrowser file:///home/longneck/x/enigmabox-documentation/de/build/html/troubleshooting.html
