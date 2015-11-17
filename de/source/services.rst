@@ -5,21 +5,21 @@ Dienste
 .. contents::
    :local:
 
-*************************
-Die eigene Website hosten
-*************************
+*********************
+Eigene Website hosten
+*********************
 
 sdf
 
-*******************
-Ein Wiki einrichten
-*******************
+****
+Wiki
+****
 
 sdf
 
-*******************
-Pastebin einrichten
-*******************
+********
+Pastebin
+********
 
 sdf
 
@@ -54,6 +54,26 @@ Fertig!
 
 Echtzeitkollaboration einrichten
 ================================
+
+Im OwnCloud-Menü "Apps" anwählen:
+
+.. image:: images/oc9.png
+
+Unter "Not enabled": "Documents" aktivieren:
+
+.. image:: images/oc10-documents.png
+
+"Documents" ist als neuer Menüpunkt hinzugekommen:
+
+.. image:: images/oc11.png
+
+Gemeinsam an einem Dokument arbeiten:
+
+.. image:: images/oc12.png
+
+.. image:: images/oc13.png
+
+.. image:: images/oc14.png
 
 Externe Speicher konfigurieren
 ==============================
