@@ -78,8 +78,57 @@ Gemeinsam an einem Dokument arbeiten:
 Externe Speicher konfigurieren
 ==============================
 
+Das Menü "Speichermedien" erscheint, sobald OwnCloud aktiviert wurde:
+
+.. image:: images/oc3.png
+
+Name des Speichermediums eingeben, damit es aktiviert werden kann:
+
+.. image:: images/storage1.png
+
+Laufwerk ist eingehängt. "Änderungen anwenden":
+
+.. image:: images/storage2.png
+
+"Benutzen" heisst: Das Laufwerk wird eingehängt, sobald es verfügbar ist, auch nach einem Neustart.
+
+Im OwnCloud-Menü "Apps" anwählen:
+
+.. image:: images/oc9.png
+
+Unter "Not enabled": "External storage support" aktivieren:
+
+.. image:: images/storage0.png
+
+In OwnCloud im Menü rechts "Administrator" anwählen:
+
+.. image:: images/storage3.png
+
+Externer Speicher hinzufügen: "Lokal", Konfiguration: Der vorher definierte Name!
+
+.. image:: images/storage4.png
+
+Das Laufwerk ist nun in OwnCloud als Ordner sichtbar:
+
+.. image:: images/storage5.png
+
 Desktop-Synchronisation einrichten
 ==================================
+
+OwnCloud Desktop-Client herunterladen:
+
+  * Windows: https://download.owncloud.com/desktop/stable/ownCloud-1.8.4.5267-setup.exe
+  * Mac: https://download.owncloud.com/desktop/stable/ownCloud-1.8.4.2531.pkg
+
+Server-Adresse eintragen:
+
+.. image:: images/oc15.png
+
+Fertig!
+
+.. image:: images/oc16.png
+
+Der gewählte Ordner wird nun mit OwnCloud synchron gehalten.
 
 ************************
 Zugriffsrechte verwalten
