@@ -130,9 +130,36 @@ Fertig!
 
 Der gewählte Ordner wird nun mit OwnCloud synchron gehalten.
 
-************************
-Zugriffsrechte verwalten
-************************
+*****************
+Zugriff verwalten
+*****************
+
+Firewall
+========
+
+.. image:: images/hypesites-access-overview.png
+
+Zugriffsrechte einzelner Dienste
+================================
+
+.. image:: images/hypesite-running.png
+.. image:: images/hypesites-access-friends.png
+.. image:: images/hypesites-access-global.png
+.. image:: images/hypesites-access-internal.png
+.. image:: images/hypesites-access-none.png
+.. image:: images/hypesites-access-overview.png
+.. image:: images/hypesites-all-activated.png
+.. image:: images/hypesites-enable-site.png
+.. image:: images/hypesites-overview.png
+.. image:: images/site-access-all.png
+.. image:: images/site-access-friends.png
+.. image:: images/site-access-specific.png
+.. image:: images/wiki-administration.png
+.. image:: images/wiki-edit-admin.png
+.. image:: images/wiki-logged-in.png
+.. image:: images/wiki-login.png
+.. image:: images/wiki-overview.png
+.. image:: images/wiki-usermanager.png
 
 sdf
 

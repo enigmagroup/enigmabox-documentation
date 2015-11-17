@@ -3,4 +3,4 @@
 cd ..
 rm -r build/html
 make html
-qutebrowser file:///home/longneck/x/enigmabox-documentation/de/build/html/services.html
+qutebrowser file:///home/longneck/x/enigmabox-documentation/de/build/html/services.html#zugriffsrechte-einzelner-dienste
