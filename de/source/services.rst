@@ -97,11 +97,48 @@ Editiere die index.html, lade beliebige Dateien hoch. PHP wird unterstützt.
 Wiki
 ****
 
+Dienst aktivieren
+=================
+
+In der Administrationsoberfläche auf "Hypesite-Dienste konfigurieren" klicken:
+
+.. image:: images/configure-hypesite-services.png
+
+Dann "Wiki" aktivieren:
+
+.. image:: images/enable-wiki.png
+
+Danach die Änderungen mit "Änderungen anwenden" aktivieren:
+
+.. image:: images/apply-changes.png
+
+Das Wiki läuft und du kannst es über die URL, die jetzt rechts eingeblendet wird, aufrufen.
+
+Passwort vom Admin-Account ändern
+=================================
+
+Klicke im Menü unten links auf "Login":
+
 .. image:: images/wiki-overview.png
+
+Logge dich ein, Benutzer: *admin*, Passwort: *admin*.
+
 .. image:: images/wiki-login.png
+
+Gehe zur Wiki-Administration:
+
 .. image:: images/wiki-logged-in.png
+
+Klicke auf "User Manager":
+
 .. image:: images/wiki-administration.png
+
+Wähle den Benutzer "admin" aus:
+
 .. image:: images/wiki-usermanager.png
+
+Setze ein starkes Passwort und klicke danach auf "Save Changes".
+
 .. image:: images/wiki-edit-admin.png
 
 ********
