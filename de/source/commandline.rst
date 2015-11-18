@@ -117,30 +117,6 @@ Zeigt, was cjdns im Hintergrund so treibt::
     1413917051 DEBUG InterfaceController.c:259 Received [pong] from lazy endpoint [v16.0000.0000.0000.001d.1nukqsluxzn1nkpljsvxsqvrt8gh2gk18hpbkcuf6s7fy2qx35k0.k]
     1413917051 DEBUG Pathfinder.c:283 Peer [v16.0000.0000.0000.001d.1nukqsluxzn1nkpljsvxsqvrt8gh2gk18hpbkcuf6s7fy2qx35k0.k]
     1413917051 DEBUG ControlHandler.c:151 ctrl packet from [0000.0000.0000.001b]
-    1413917051 DEBUG ControlHandler.c:178 got switch pong from [0000.0000.0000.001b]
-    1413917051 DEBUG InterfaceController.c:242 got switch pong from node [v16.0000.0000.0000.001b.3rj00tu2s2b96n5v7z9fdxvw1ds7dyskbb4hw2xp9f4kh3q7cr70.k]
-    1413917051 DEBUG InterfaceController.c:259 Received [pong] from lazy endpoint [v16.0000.0000.0000.001b.3rj00tu2s2b96n5v7z9fdxvw1ds7dyskbb4hw2xp9f4kh3q7cr70.k]
-    1413917051 DEBUG Pathfinder.c:283 Peer [v16.0000.0000.0000.001b.3rj00tu2s2b96n5v7z9fdxvw1ds7dyskbb4hw2xp9f4kh3q7cr70.k]
-    1413917051 DEBUG SessionManager.c:401 Buffering a packet to [fcb7:0714:2b45:0c5c:92f3:4720:c7fa:ec08] and beginning a search
-    1413917051 DEBUG SessionManager.c:408 DROP message which needs lookup because new one received
-    1413917051 DEBUG Pathfinder.c:267 Search req [fcb7:0714:2b45:0c5c:92f3:4720:c7fa:ec08]
-    1413917051 DEBUG SessionManager.c:276 ver[0] send[0] recv[30145] ip[fcd8:e437:5656:a69a:f170:9f10:8416:2fa8] path[0000.0003.ea83.0e3d] new session nonce[0]
-    1413917051 DEBUG CryptoAuth.c:642 0x137ffe8 inner [fcd8:e437:5656:a69a:f170:9f10:8416:2fa8]: Received a hello packet, using auth: 0
-    1413917051 DEBUG SessionManager.c:305 ver[0] send[80345] recv[30145] ip[fcd8:e437:5656:a69a:f170:9f10:8416:2fa8] path[0000.0003.ea83.0e3d] received start message
-    1413917051 DEBUG Pathfinder.c:317 Session [v0.0000.0003.ea83.0e3d.5l2b4xn0syj5b1x5hhsx07upv4ddklbvdpt3gn4sv4v8tpk4fzq0.k]
-    1413917051 DEBUG NodeStore.c:1968 getPeers request for [7441f41]
-    1413917051 DEBUG SessionManager.c:565 Session sendPath[0000.0000.0000.0013] recvPath[0000.0000.0000.0013] ip[fc1c:18cc:f95b:a2c0:a792:6c34:b2ae:bd0e] discovered path
-    1413917051 DEBUG SessionManager.c:565 Session sendPath[0000.0003.ea83.0e3d] recvPath[0000.0003.ea83.0e3d] ip[fcd8:e437:5656:a69a:f170:9f10:8416:2fa8] discovered path
-    1413917051 DEBUG CryptoAuth.c:437 0x137ffe8 inner [fcd8:e437:5656:a69a:f170:9f10:8416:2fa8]: Sending key packet
-    1413917051 DEBUG SessionManager.c:471 ver[15] send[80345] recv[30145] ip[fcd8:e437:5656:a69a:f170:9f10:8416:2fa8] path[0000.0003.ea83.0e3d] sending start message
-    1413917051 DEBUG NodeStore.c:1500 Discover node [fcb3:000f:9f8a:332c:92c6:ce84:c581:5c1c@0047.78d0.648c.1023]
-    1413917051 DEBUG NodeStore.c:1013 discoverLinkC( [fc67:9816:2ccc:c4c2:f76c:1d09:a7a5:044e]->[fcb3:000f:9f8a:332c:92c6:ce84:c581:5c1c] [0000.0000.0000.0019] )
-    1413917051 DEBUG NodeStore.c:750 Linking [fc67:9816:2ccc:c4c2:f76c:1d09:a7a5:044e] with [fcb3:000f:9f8a:332c:92c6:ce84:c581:5c1c] with label fragment [0000.0000.0000.0019]
-    1413917051 DEBUG NodeStore.c:1603 store full, removing worst node: [fcb3:000f:9f8a:332c:92c6:ce84:c581:5c1c@0000.0011.de26.182b] nodes [135] links [531]
-    1413917051 DEBUG SessionManager.c:565 Session sendPath[0000.0011.de26.182b] recvPath[0047.78d0.648c.1023] ip[fcb3:000f:9f8a:332c:92c6:ce84:c581:5c1c] discovered path
-    1413917051 DEBUG SessionManager.c:565 Session sendPath[0000.0011.de26.182b] recvPath[0047.78d0.648c.1023] ip[fcb3:000f:9f8a:332c:92c6:ce84:c581:5c1c] discovered path
-    1413917051 DEBUG SessionManager.c:565 Session sendPath[0047.78d0.648c.1023] recvPath[0047.78d0.648c.1023] ip[fcb3:000f:9f8a:332c:92c6:ce84:c581:5c1c] discovered path
-    1413917051 DEBUG SessionManager.c:565 Session sendPath[0000.0000.0006.b02b] recvPath[0000.0000.0006.b02b] ip[fcd1:338e:e299:2104:aad5:90bf:db05:7cfe] discovered path
 
 dumptable
 =========
