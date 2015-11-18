@@ -34,7 +34,7 @@ Adressen im "An"-Feld werden automatisch mit Einträgen aus dem Enigmabox Adress
 Links sind drei Adressbücher zu sehen:
 
   * "Persönliches Adressbuch" - nicht relevant
-  * "Enigmabox" - Adressen aus dem persönlichen Adressbuch
+  * "Enigmabox" - Adressen aus dem persönlichen Adressbuch (siehe: :ref:`address_book`)
   * "Enigmabox (Global)" - Adressen aus dem globalen Adressbuch
 
 **Anhänge verschicken:** Du kannst Anhänge bis zu 100MB via Enigmabox-E-Mail verschicken.
