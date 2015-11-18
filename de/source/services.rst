@@ -9,7 +9,31 @@ Dienste
 Eigene Website hosten
 *********************
 
-sdf
+Dienst aktivieren
+=================
+
+Dateien mit SFTP hochladen
+==========================
+
+**WinSCP herunterladen:** http://winscp.net/download/winscp574setup.exe
+
+**Mit der Enigmabox verbinden:**
+
+.. image:: images/sftp.png
+
+Für das Passwort, siehe :ref:`set_password_ssh`
+
+.. image:: images/enter-pw.png
+
+Verbinden, Passwort eingeben.
+
+**HTML-Dateien hochladen:**
+
+Das Verzeichnis des Webservers ist */srv/www/*
+
+Editiere die index.html, lade beliebige Dateien hoch. PHP wird unterstützt.
+
+.. image:: images/hypesite-running.png
 
 ****
 Wiki

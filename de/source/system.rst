@@ -127,6 +127,8 @@ Passwort für das Telefon
 | **Passwort:** 100
 |
 
+.. _set_password_ssh:
+
 Passwort für den SSH-Zugang
 ===========================
 
