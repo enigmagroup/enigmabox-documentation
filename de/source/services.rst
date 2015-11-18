@@ -5,12 +5,52 @@ Dienste
 .. contents::
    :local:
 
+*****************
+Zugriff verwalten
+*****************
+
+Firewall
+========
+
+.. image:: images/hypesites-access-overview.png
+.. image:: images/hypesites-access-none.png
+.. image:: images/hypesites-access-internal.png
+.. image:: images/hypesites-access-friends.png
+.. image:: images/hypesites-access-global.png
+
+Zugriffsrechte einzelner Dienste
+================================
+
+.. image:: images/site-access-all.png
+.. image:: images/site-access-friends.png
+.. image:: images/site-access-specific.png
+
+sdf
+
 *********************
 Eigene Website hosten
 *********************
 
+.. image:: images/hypesites-overview.png
+
+Hypesites sind Websites innerhalb des verschlüsselten Netzwerks. Auf der Enigmabox läuft ein Webserver, und jeder kann seine eigene Website für andere Enigmabox-Benutzer zur Verfügung stellen.
+
 Dienst aktivieren
 =================
+
+In der Administrationsoberfläche auf "Hypesite-Dienste konfigurieren" klicken:
+
+.. image:: images/oc1.png
+
+Dann "Eigene Website" aktivieren:
+
+.. image:: images/hypesites-enable-site.png
+
+Danach die Änderungen mit "Änderungen anwenden" aktivieren:
+
+.. image:: images/apply-changes.png
+
+Die eigene Website läuft und du kannst sie über die URL, die jetzt rechts eingeblendet wird, aufrufen.
 
 Dateien mit SFTP hochladen
 ==========================
@@ -39,7 +79,12 @@ Editiere die index.html, lade beliebige Dateien hoch. PHP wird unterstützt.
 Wiki
 ****
 
-sdf
+.. image:: images/wiki-overview.png
+.. image:: images/wiki-login.png
+.. image:: images/wiki-logged-in.png
+.. image:: images/wiki-administration.png
+.. image:: images/wiki-usermanager.png
+.. image:: images/wiki-edit-admin.png
 
 ********
 Pastebin
@@ -153,37 +198,4 @@ Fertig!
 .. image:: images/oc16.png
 
 Der gewählte Ordner wird nun mit OwnCloud synchron gehalten.
-
-*****************
-Zugriff verwalten
-*****************
-
-Firewall
-========
-
-.. image:: images/hypesites-access-overview.png
-
-Zugriffsrechte einzelner Dienste
-================================
-
-.. image:: images/hypesite-running.png
-.. image:: images/hypesites-access-friends.png
-.. image:: images/hypesites-access-global.png
-.. image:: images/hypesites-access-internal.png
-.. image:: images/hypesites-access-none.png
-.. image:: images/hypesites-access-overview.png
-.. image:: images/hypesites-all-activated.png
-.. image:: images/hypesites-enable-site.png
-.. image:: images/hypesites-overview.png
-.. image:: images/site-access-all.png
-.. image:: images/site-access-friends.png
-.. image:: images/site-access-specific.png
-.. image:: images/wiki-administration.png
-.. image:: images/wiki-edit-admin.png
-.. image:: images/wiki-logged-in.png
-.. image:: images/wiki-login.png
-.. image:: images/wiki-overview.png
-.. image:: images/wiki-usermanager.png
-
-sdf
 
