@@ -45,6 +45,8 @@ Kontakte aus dem Adressbuch haben Zugriff.
 
 Erlaube einzelnen IPv6-Adressen den Zugriff auf einen Dienst.
 
+.. _hosting:
+
 *********************
 Eigene Website hosten
 *********************
@@ -92,6 +94,8 @@ Das Verzeichnis des Webservers ist */srv/www/*
 Editiere die index.html, lade beliebige Dateien hoch. PHP wird unterstützt.
 
 .. image:: images/hypesite-running.png
+
+.. _wiki:
 
 ****
 Wiki
@@ -167,6 +171,8 @@ Danach die Änderungen mit "Änderungen anwenden" aktivieren:
 
 Der Pastebin läuft und du kannst ihn über die URL, die jetzt rechts eingeblendet wird, aufrufen.
 
+.. _owncloud:
+
 ********
 OwnCloud
 ********
@@ -197,6 +203,8 @@ Benutzername und Passwort vergeben:
 Fertig!
 
 .. image:: images/oc7.png
+
+.. _realtime_collaboration:
 
 Echtzeitkollaboration einrichten
 ================================

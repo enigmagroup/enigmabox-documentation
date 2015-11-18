@@ -26,6 +26,8 @@ Statusabfrage
 
 Die Telefonnummer "1" gibt Informationen zur Verbindung der Enigmabox, das Abo, erhaltene E-Mails und erreichbare Kontakte im Adressbuch aus.
 
+.. _conference_calls:
+
 ******************
 Telefonkonferenzen
 ******************
@@ -55,6 +57,8 @@ Anrufbeantworter
 ****************
 
 Der Anrufbeantworter springt automatisch an, wenn nach 30 Sekunden klingeln das Telefon nicht abgenommen wurde. Die aufgezeichnete Nachricht wird als E-Mail gespeichert und landet in der Inbox des Angerufenen.
+
+.. _videocalls:
 
 ************************
 Videotelefonie mit Jitsi
