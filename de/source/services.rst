@@ -97,6 +97,8 @@ Editiere die index.html, lade beliebige Dateien hoch. PHP wird unterstützt.
 Wiki
 ****
 
+Ein Wiki ermöglicht kollaboratives Arbeiten an Projekten, zur Dokumentation oder zur Ideenfindung.
+
 Dienst aktivieren
 =================
 
@@ -147,11 +149,29 @@ Das Wiki ist jetzt konfiguriert und einsatzbereit. Für weitere Informationen, k
 Pastebin
 ********
 
-sdf
+.. image:: images/stikked-overview.png
+
+Ein Pastebin ist dazu da, um lange und kurze Texte schnell und einfach mit anderen zu teilen. Alles, was du tun musst, ist, den Text in ein Feld einfügen (Paste), und dann den Link verteilen. Der Pastebin, der auf der Enigmabox mitgeliefert wird, unterstützt verschlüsselte Pastes.
+
+In der Administrationsoberfläche auf "Hypesite-Dienste konfigurieren" klicken:
+
+.. image:: images/configure-hypesite-services.png
+
+Dann "Pastebin" aktivieren:
+
+.. image:: images/enable-pastebin.png
+
+Danach die Änderungen mit "Änderungen anwenden" aktivieren:
+
+.. image:: images/apply-changes.png
+
+Der Pastebin läuft und du kannst ihn über die URL, die jetzt rechts eingeblendet wird, aufrufen.
 
 ********
 OwnCloud
 ********
+
+OwnCloud ermöglicht es, Dateien aller Art mit anderen zu teilen, Dateien auf mehreren Rechnern synchron zu halten und gemeinsam an Dokumenten zu arbeiten. Auf der Enigmabox ist OwnCloud so eingebunden, dass sämtliche Kommunikation verschlüsselt ist, das Teilen mit anderen funktioniert also nur innerhalb des Netzwerks.
 
 Initiale Einrichtung
 ====================
@@ -255,4 +275,8 @@ Fertig!
 .. image:: images/oc16.png
 
 Der gewählte Ordner wird nun mit OwnCloud synchron gehalten.
+
+.. image:: images/sync-removed.png
+
+.. image:: images/sync-downloaded.png
 
