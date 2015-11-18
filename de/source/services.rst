@@ -141,6 +141,8 @@ Setze ein starkes Passwort und klicke danach auf "Save Changes".
 
 .. image:: images/wiki-edit-admin.png
 
+Das Wiki ist jetzt konfiguriert und einsatzbereit. Für weitere Informationen, konsultiere die DokuWiki Dokumentation: https://www.dokuwiki.org/wiki:dokuwiki
+
 ********
 Pastebin
 ********
