@@ -1,3 +1,4 @@
+==========
 Einführung
 ==========
 
@@ -25,8 +26,9 @@ Nur die Dimensionen sind gewaltig gewachsen und es wurde ein Zeitgeist geschaffe
 
 Abhörsichere Kommunikationswege werden auch in der heutigen durch die Internetgiganten und den Geheimdiensten überwachten Welt eine entscheidende Wendung geben.
 
+**************
 The Masterplan
-==============
+**************
 
 Phase One
 
