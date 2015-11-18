@@ -3,4 +3,4 @@
 cd ..
 rm -r build/html
 make html
-qutebrowser file:///home/longneck/x/enigmabox-documentation/de/build/html/use_cases.html
+qutebrowser file:///home/longneck/x/enigmabox-documentation/de/build/html/hardware.html
