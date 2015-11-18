@@ -12,20 +12,38 @@ Zugriff verwalten
 Firewall
 ========
 
-.. image:: images/hypesites-access-overview.png
+Die Firewall erlaubt folgenden Zugriff auf den Webserver der Enigmabox:
+
 .. image:: images/hypesites-access-none.png
+
+Keiner: Kein Zugriff.
+
 .. image:: images/hypesites-access-internal.png
+
+Internes LAN: Nur der angeschlossene PC hat Zugriff.
+
 .. image:: images/hypesites-access-friends.png
+
+Nur Freunde: Kontakte aus dem Adressbuch haben Zugriff.
+
 .. image:: images/hypesites-access-global.png
+
+Global: Alle im verschlüsselten Netzwerk haben Zugriff.
 
 Zugriffsrechte einzelner Dienste
 ================================
 
 .. image:: images/site-access-all.png
+
+Alle im verschlüsselten Netzwerk haben Zugriff.
+
 .. image:: images/site-access-friends.png
+
+Kontakte aus dem Adressbuch haben Zugriff.
+
 .. image:: images/site-access-specific.png
 
-sdf
+Erlaube einzelnen IPv6-Adressen den Zugriff auf einen Dienst.
 
 *********************
 Eigene Website hosten
