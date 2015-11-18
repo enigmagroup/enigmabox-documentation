@@ -9,16 +9,14 @@ Firmware kompilieren
 Repository klonen, OpenWrt konfigurieren
 ****************************************
 
-OpenWrt package feed for the Enigmabox software suite.
-
-How to build that stuff::
+Klone das OpenWrt-Repository via Git::
 
     $ git clone https://github.com/enigmagroup/openwrt.git
     $ cd openwrt
 
     $ vi feeds.conf
 
-Your feeds.conf should look like this::
+Deine feeds.conf sollte so aussehen::
 
     src-git packages https://github.com/enigmagroup/openwrt-packages.git
     src-git oldpackages https://github.com/enigmagroup/openwrt-oldpackages.git
@@ -28,7 +26,7 @@ Your feeds.conf should look like this::
 
     src-git enigmabox https://github.com/enigmagroup/enigmabox-openwrt.git
 
-Next use that package system to incorporate the Enigmabox software suite::
+Aktualisiere die Paketliste und installiere alle benötigten Pakete::
 
     $ ./scripts/feeds update -a
     $ ./scripts/feeds install -a
@@ -37,186 +35,178 @@ Next use that package system to incorporate the Enigmabox software suite::
 Image konfigurieren
 *******************
 
-Then configure for your system::
+Starte die Imagekonfiguration mit::
 
     $ make menuconfig
 
-Building firmware for the Banana Pi
-===================================
+Firmware kompilieren für den Banana Pi
+======================================
 
-"Target System": Allwinner A1x/A20/A3x
+  * Target System: Allwinner A1x/A20/A3x
+  * Target Profile: Bananapi
+  * Target Images:
+  
+    * Root filesystem images:
+  
+      * ext4: yes
+  
+        * Maximum number of inodes in root filesystem: 200000
+        * Create a journaling filesystem: yes
+  
+      * GZip images: no
+  
+    * Image Options:
+  
+      * Root filesystem partition size (in MB): 3600
+      * Include kernel in root filesystem: yes
+      * Include DTB in root filesystem: yes
 
-"Target Profile": Bananapi
+Die OpenWrt Entwickler haben entschieden, standardmässig die musl-Bibliothek zu nutzen. Die Software der Enigmabox setzt noch auf uClibc. Wähle diese explizit aus:
 
-"Target Images": configure as you please. Example:
+  * Advanced configuration options:
+  
+    * Toolchain Options
+  
+      * C Library implementation
+  
+        * Use uClibc
 
-  * Root filesystem images:
+Konfiguration der Enigmabox-Pakete:
 
-    * ext4: yes
+  * "Enigmabox":
+  
+    * cfengine-promises: yes
+  
+      * Network profile: Rasperry Pi
+  
+    * provision-grandstream: yes
+    * roundcube: yes
+    * teletext: yes
+    * webinterface: yes
 
-      * Maximum number of inodes in root filesystem: 200000
-      * Create a journaling filesystem: yes
+"webinterface" ist der wichtigste Teil, da dieses Paket automatisch alle benötigten Abhängigkeiten selektiert.
 
-    * GZip images: no
+Beende die Imagekonfiguration und speichere deine .config.
 
-  * Image Options:
-
-    * Root filesystem partition size (in MB): 3600
-    * Include kernel in root filesystem: yes
-    * Include DTB in root filesystem: yes
-
-Recently, OpenWrt decided to switch to musl by default.
-
-Stick to uClibc manually:
-
-"Advanced configuration options":
-
-  * Toolchain Options
-
-    * C Library implementation
-
-      * Use uClibc
-
-"Enigmabox":
-
-  * cfengine-promises: yes
-
-    * Network profile: Rasperry Pi
-
-  * provision-grandstream: yes
-  * roundcube: yes
-  * teletext: yes
-  * webinterface: yes
-
-The "webinterface" is the most important part, since it's selecting all required dependencies.
-
-Quit and save your .config
-
-Build::
+Kompilierungsvorgang starten::
 
     $ make
 
-After about 30mins (depending on your machine), your image is ready::
+Nach ungefähr 30min (je nach Leistungsfähigkeit deines Rechners) ist das Image bereit::
 
     bin/sunxi-uClibc/openwrt-sunxi-Bananapi-sdcard-vfat-ext4.img
 
-Building firmware for the PC Engines APU (64-bit Enigmabox)
-============================================================
+Firmware kompilieren für die PC Engines APU (64-bit Enigmabox)
+==============================================================
 
-"Target System": x86
+  * Target System: x86
+  * Subtarget: x86_64
+  * Target Profile: Default
+  * Target Images:
+  
+    * Root filesystem images:
+  
+      * ext4: yes
+  
+        * Maximum number of inodes in root filesystem: 200000
+        * Create a journaling filesystem: yes
+  
+      * GZip images: no
+  
+    * Image Options:
+  
+      * Root filesystem partition size (in MB): 3600
+      * Include kernel in root filesystem: yes
 
-"Subtarget": x86_64
+Die OpenWrt Entwickler haben entschieden, standardmässig die musl-Bibliothek zu nutzen. Die Software der Enigmabox setzt noch auf uClibc. Wähle diese explizit aus:
 
-"Target Profile": Default
+  * Advanced configuration options:
+  
+    * Toolchain Options
+  
+      * C Library implementation
+  
+        * Use uClibc
 
-"Target Images": configure as you please. Example:
+Konfiguration der Enigmabox-Pakete:
 
-  * Root filesystem images:
+  * "Enigmabox":
+  
+    * cfengine-promises: yes
+  
+      * Network profile: APU
+  
+    * provision-grandstream: yes
+    * roundcube: yes
+    * teletext: yes
+    * webinterface: yes
 
-    * ext4: yes
+"webinterface" ist der wichtigste Teil, da dieses Paket automatisch alle benötigten Abhängigkeiten selektiert.
 
-      * Maximum number of inodes in root filesystem: 200000
-      * Create a journaling filesystem: yes
+Beende die Imagekonfiguration und speichere deine .config.
 
-    * GZip images: no
-
-  * Image Options:
-
-    * Root filesystem partition size (in MB): 3600
-    * Include kernel in root filesystem: yes
-
-Recently, OpenWrt decided to switch to musl by default.
-
-Stick to uClibc manually:
-
-"Advanced configuration options":
-
-  * Toolchain Options
-
-    * C Library implementation
-
-      * Use uClibc
-
-"Enigmabox":
-
-  * cfengine-promises: yes
-
-    * Network profile: APU
-
-  * provision-grandstream: yes
-  * roundcube: yes
-  * teletext: yes
-  * webinterface: yes
-
-The "webinterface" is the most important part, since it's selecting all required dependencies.
-
-Quit and save your .config
-
-Build::
+Kompilierungsvorgang starten::
 
     $ make
 
-After about 30mins (depending on your machine), your image is ready::
+Nach ungefähr 30min (je nach Leistungsfähigkeit deines Rechners) ist das Image bereit::
 
     bin/x86-uClibc/openwrt-x86-64-combined-ext4.img
 
-Building firmware for the PC Engines ALIX (32-bit Enigmabox)
-============================================================
+Firmware kompilieren für das PC Engines ALIX (32-bit Enigmabox)
+===============================================================
 
-"Target System": x86
+  * Target System: x86
+  * Subtarget: Generic
+  * Target Profile: Default
+  * Target Images:
+  
+    * Root filesystem images:
+  
+      * ext4: yes
+  
+        * Maximum number of inodes in root filesystem: 200000
+        * Create a journaling filesystem: yes
+  
+      * GZip images: no
+  
+    * Image Options:
+  
+      * Root filesystem partition size (in MB): 3600
+      * Include kernel in root filesystem: yes
 
-"Subtarget": Generic
+Die OpenWrt Entwickler haben entschieden, standardmässig die musl-Bibliothek zu nutzen. Die Software der Enigmabox setzt noch auf uClibc. Wähle diese explizit aus:
 
-"Target Profile": Default
+  * Advanced configuration options:
+  
+    * Toolchain Options
+  
+      * C Library implementation
+  
+        * Use uClibc
 
-"Target Images": configure as you please. Example:
+Konfiguration der Enigmabox-Pakete:
 
-  * Root filesystem images:
+  * "Enigmabox":
+  
+    * cfengine-promises: yes
+  
+      * Network profile: ALIX
+  
+    * provision-grandstream: yes
+    * roundcube: yes
+    * teletext: yes
+    * webinterface: yes
 
-    * ext4: yes
+"webinterface" ist der wichtigste Teil, da dieses Paket automatisch alle benötigten Abhängigkeiten selektiert.
 
-      * Maximum number of inodes in root filesystem: 200000
-      * Create a journaling filesystem: yes
+Beende die Imagekonfiguration und speichere deine .config.
 
-    * GZip images: no
-
-  * Image Options:
-
-    * Root filesystem partition size (in MB): 3600
-    * Include kernel in root filesystem: yes
-
-Recently, OpenWrt decided to switch to musl by default.
-
-Stick to uClibc manually:
-
-"Advanced configuration options":
-
-  * Toolchain Options
-
-    * C Library implementation
-
-      * Use uClibc
-
-"Enigmabox":
-
-  * cfengine-promises: yes
-
-    * Network profile: ALIX
-
-  * provision-grandstream: yes
-  * roundcube: yes
-  * teletext: yes
-  * webinterface: yes
-
-The "webinterface" is the most important part, since it's selecting all required dependencies.
-
-Quit and save your .config
-
-Build::
+Kompilierungsvorgang starten::
 
     $ make
 
-After about 30mins (depending on your machine), your image is ready::
+Nach ungefähr 30min (je nach Leistungsfähigkeit deines Rechners) ist das Image bereit::
 
     bin/x86-uClibc/openwrt-x86-generic-combined-ext4.img
 
