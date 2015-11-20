@@ -115,33 +115,33 @@ Der Videoanruf startet.
 Telefonie auf einem Android-Handy einrichten
 ********************************************
 
-Hier werde ich Ihnen Schritt für Schritt zeigen, wie Sie ihr Android-Handy in ein EnigmaTelefon umfunktionieren können. Voraussetzung ist aber, dass Sie ihre EnigmaBox über ein WIFI erreichen können, Sie also am LAN-Anschluss ihrer EnigmaBox einen WIFI-Accesspoint angeschlossen haben:
+Stelle sicher, dass du die Enigmabox über WLAN erreichen kannst (Accesspoint muss am LAN-Anschluss der Enigmabox angeschlossen sein).
 
-* Tippen Sie zuerst auf dem Home-Bildschirm Ihres Android-Handys auf "Telefon"
+Tippe zuerst auf dem Home-Bildschirm des Android-Handys auf "Telefon":
   
 .. image:: images/home.jpg
 
-* Tippen Sie nun links unten auf Ihrem Android-Handy auf die Menü-Taste:
+Tippe nun links unten auf dem Android-Handy auf die Menü-Taste:
 
 .. image:: images/menuetaste.jpg
 
-* Im sich darauf öffnenden Menü tippen Sie auf "Anrufeinstellungen":
+Im sich darauf öffnenden Menü tippe auf "Anrufeinstellungen":
 
 .. image:: images/anrufeinstellungen.jpg
 
-* Scrollen Sie im sich darauf öffnenden Einstellungsmenü ganz nach unten und tippen Sie auf "Konten":
+Scrolle im sich darauf öffnenden Einstellungsmenü ganz nach unten und tippe auf "Konten":
 
 .. image:: images/konten.jpg
 
-* Im neu geöffneten Untermenü setzen Sie zuerst den Hacken bei "Eingehende Anrufe annehmen" und tippen anschliessend auf "Konto hinzufügen":
+Im neu geöffneten Untermenü setze zuerst den Haken bei "Eingehende Anrufe annehmen" und tippe anschliessend auf "Konto hinzufügen":
 
 .. image:: images/add_konto.jpg
 
-* Bei Benutzernamen und Passwort ist "100" einzugeben und der Server lautet "box":
+Bei Benutzernamen und Passwort ist *100* einzugeben und der Server lautet *box*:
 
 .. image:: images/set_konto.jpg
 
-* Die Einstellungen werden gespeichert, sobald sie zum vorherigen Menü zurückkehren. Dort werden Sie zu unterst den Menüeintrag "Internetanrufe tätigen" finden. Tippen Sie darauf und wählen Sie die Option "Bei jedem Anruf fragen" aus.
-* Nun sollten Sie fähig sein, Anrufe von ihrem Android-Handy auf andere Enigmaboxen tätigen zu können oder Anrufe von anderen auf ihre Box mit ihrem Android-Handy entgegen zu nehmen.
+Die Einstellungen werden gespeichert, sobald du zum vorherigen Menü zurückkehrst. Dort wirst du zuunterst den Menüeintrag "Internetanrufe tätigen" finden. Tippe darauf und wähle die Option "Bei jedem Anruf fragen" aus.
 
+Nun ist alles eingerichtet, Anrufe vom Android-Handy zu anderen Enigmaboxen tätigen zu können oder Anrufe von anderen auf deine Box mit dem Android-Handy entgegenzunehmen.
 

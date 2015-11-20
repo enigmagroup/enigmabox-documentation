@@ -187,7 +187,7 @@ Nun klickst du zuerst auf "Erweitert" und anschliessend auf "Einstellungen...":
 
 .. image:: images/advanced.jpg
 
-Stelle alles so ein, wie auf dem folgenden Bild ersichtlich:
+Stelle alles so ein wie auf dem folgenden Bild ersichtlich:
 
 .. image:: images/proxysettingsfirefox.jpg
 
@@ -214,7 +214,7 @@ Im sich darauf öffnenden Fenster wählst du zuerst "Verbindungen" und dann "LAN
 
 .. image:: images/lan_settings.jpg
 
-Stelle alles so ein, wie auf dem folgenden Bild ersichtlich:
+Stelle alles so ein wie auf dem folgenden Bild ersichtlich:
 
 .. image:: images/proxysettings.jpg
 
@@ -251,7 +251,7 @@ Klicke im neu geöffneten Fenster zuerst auf "Proxies". Danach setzt du den Hake
 
 .. image:: images/proxy.jpg
 
-Schliesse das Fenster mit OK
+Schliesse das Fenster mit OK.
 
 Kontrolliere in deinem Browser, ob du auch dort die richtigen Einstellungen gesetzt hast. Dafür gehst du z.B. im Firefox über den Button rechts oben im Browserfenster auf "Einstellungen":
 
