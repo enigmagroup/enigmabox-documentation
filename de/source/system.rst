@@ -174,6 +174,18 @@ Falls du dein Passwort für die Administrationsoberfläche vergessen hast und ni
 
 Auf dem USB-Stick ist das SSL-Zertifikat für die Aboverwaltung gespeichert. Es dient auch dazu, Passwörter zurückzusetzen. Die Enigmabox prüft, ob das Zertifikat auf dem Stick dasselbe ist wie im System und setzt dann das Passwort der Administrationsoberfläche zurück.
 
+.. _lan_range:
+
+**********************************
+Einen anderen IP-Bereich festlegen
+**********************************
+
+Die Enigmabox vergibt den angeschlossenen Geräten IP-Adressen im Bereich von 192.168.100.X und 192.168.101.X. Falls dein Router im gleichen Bereich Adressen vergibt, bringt das die Enigmabox durcheinander.
+
+Stelle in diesem Fall den Bereich um:
+
+.. image:: images/lan_range.png
+
 .. _backup:
 
 ********************************

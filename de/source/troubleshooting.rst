@@ -14,24 +14,38 @@ Stelle sicher, dass die IP-Adresse automatisch zugewiesen wird:
 
 Weitere Möglichkeiten, um auf das Webinterface zuzugreifen:
 
-  * http://box/ (Standard)
-  * http://enigma.box/
   * http://box.enigmabox.net
-  * http://192.168.100.1
-  * http://192.168.101.1
+  * http://box/
+  * http://enigma.box/
+  * http://192.168.100.1 [#f1]_
+  * http://192.168.101.1 [#f1]_
 
 Sind die Kabel richtig angeschlossen? Siehe: :ref:`wiring`
+
+.. [#f1] Je nach dem, welchen Bereich du eingestellt hast. Siehe: :ref:`lan_range`
+
+Ich kann das Internet nicht erreichen
+=====================================
+
+Konntest du das Internet ohne die Enigmabox erreichen? Stelle sicher, dass dies der Fall ist.
+
+Sind die Kabel richtig angeschlossen? Siehe: :ref:`wiring`
+
+Was sagt das Telefon? Siehe: :ref:`status_phone`
 
 Ich habe mein Passwort für das Webinterface vergessen
 =====================================================
 
 Du kannst es zurücksetzen, siehe: :ref:`reset_pw`
 
+.. _status_phone:
+
 Status via Telefon abfragen
 ===========================
 
 Rufe auf die Telefonnummer 1 an, um den Systemstatus vorgelesen zu bekommen. Die Stimme liest folgendes vor:
 
+  * Ob du E-Mails erhalten hast und wieviele
   * Ob alles ok ist
   * Das gewählte Land
   * Die Hostid
