@@ -23,12 +23,34 @@ Das hat ein paar Vorteile:
   * Wenn die IPv6 deine Identität ist, ist sie deine Telefonnummer (sip://[ipv6]).
   * Wenn die IPv6 deine Identität ist, ist sie dein Webserver (http://[ipv6]).
   * Siehst du, worauf es hinausläuft? Wir dezentralisieren das Internet.
+  * Die Kommunikation ist immer Ende-zu-Ende verschlüsselt. Keiner, der das Signal weiterreicht, kann den Inhalt anschauen.
 
 So einfach ist das.
 
 Cjdns fährt ein tun0 hoch und bindet die IPv6 daran. Sämtliche Anwendungen, die IPv6 unterstützen, können verschlüsselt kommunizieren. Wir müssen keine Anwendungen umbauen, wir brauchen keine Programme neu zu schreiben.
 
 Cjdns verbindet sich zu Nachbarn (sog. Peers), wahlweise via WLAN, oder über einen UDP-Tunnel über das bestehende Internet. Die Routenfindung passiert automatisch.
+
+Wie funktioniert die verschlüsselte Kommunikation genau?
+========================================================
+
+Es nützt nichts, wenn alles verschlüsselt ist, aber niemand Nachrichten entschlüsseln kann. In einem Verfahren mit privaten und öffentlichen Schlüsseln ist es so:
+
+  * Mit dem **öffentlichen** Schlüssel kann ich eine Nachricht **verschlüsseln**
+  * Mit dem **privaten** Schlüssel kann ich eine Nachricht **entschlüsseln**
+
+Jeder Teilnehmer besitzt einen öffentlichen und einen privaten Schlüssel.
+
+Jetzt funktioniert das wie folgt:
+
+======================================================================= =======================================================
+Alice                                                                   Bob
+======================================================================= =======================================================
+Hallo Bob, ich möchte eine Nachricht für dich verschlüsseln.             
+                                                                        Ist gut, hier ist mein öffentlicher Schlüssel.
+[Verschlüsselt Nachricht mit Bob's öffentlichem Schlüssel]               
+                                                                        [Entschlüsselt Nachricht mit seinem privaten Schlüssel]
+======================================================================= =======================================================
 
 ******
 System

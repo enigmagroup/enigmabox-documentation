@@ -20,5 +20,4 @@ Enigmabox Handbuch
 	threat_model
 	commandline
 	firmware
-	contribute
 
