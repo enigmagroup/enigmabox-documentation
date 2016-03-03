@@ -44,7 +44,7 @@ Freie, Open Source Software
 
 Die Enigmabox ist Open Source.
 
-Du kannst dir von Programmcode auf dein eigenes Image bauen. Die Anleitung findest du bei GitHub: https://github.com/enigmagroup/enigmabox-openwrt
+Du kannst dir das Image selber kompilieren. Die Anleitung findest du in hier: :ref:`firmware`
 
 ***********************************
 cjdns: Die IPv6 ist deine Identität
