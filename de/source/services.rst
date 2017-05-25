@@ -288,3 +288,42 @@ Der gewählte Ordner wird nun mit OwnCloud synchron gehalten.
 
 .. image:: images/sync-downloaded.png
 
+*****************
+Portweiterleitung
+*****************
+
+Die Portweiterleitung erlaubt es, einen beliebigen Port im cjdns-Netzwerk an einen Rechner im LAN weiterzuleiten. So kann man z.B. eine Remotedesktopverbindung einrichten, oder Gameserver innerhalb von Hyperboria hosten. Im folgenden Beispiel verbindet [IPv6]:5900 zum VNC-Server meines Laptops (192.168.100.52:5900).
+
+.. image:: images/portforwarding-overview.png
+
+Es werden immer beide - TCP und UDP-Ports - weitergeleitet.
+
+Der Status zeigt an, ob ein Dienst von der Box erreichbar ist. Diese Statusanzeige funktioniert aber nur bei TCP-Diensten.
+
+Die Zugriffsrechte können ähnlich granular vergeben werden wie bei den anderen Diensten.
+
+.. image:: images/portforwarding-service.png
+
+Portweiterleitung erstellen
+===========================
+
+.. image:: images/portforwarding-create.png
+
+**Port:** Auf welchem Port auf der IPv6 der Enigmabox soll der Dienst lauschen?
+
+**Zielgerät:** Rechner, auf dem der Dienst läuft
+
+**Zielport:** Eigentlicher Port des Dienstes
+
+Port und Zielport müssen nicht übereinstimmen; "Port" kann frei gewählt werden. Ausnahmen sind bereits belegte Ports wie 22, 25, 80, 110, 143, 3838, 5060.
+
+**Beschreibung (optional):** Eine kurze Beschreibung des Dienstes.
+
+Danach auf "Speichern" klicken und die Zugriffsrechte vergeben.
+
+.. note:: Wichtig: Der Port ist erst erreichbar, wenn die Zugriffsrechte vergeben wurden! Auf einen frisch erstellten Port hat noch niemand Zugriff.
+
+In der Administrationsoberfläche werden die aktiven Portweiterleitungen angezeigt:
+
+.. image:: images/portforwarding-status.png
+
