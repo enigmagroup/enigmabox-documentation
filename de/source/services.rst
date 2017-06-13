@@ -292,6 +292,26 @@ Der gewählte Ordner wird nun mit OwnCloud synchron gehalten.
 Teletext
 ********
 
+Kontakte aus dem Enigmabox-Adressbuch hinzufügen
+================================================
+
+.. image:: images/teletext-add-from-addressbook.png
+
+Die Timeline
+============
+
+.. image:: images/teletext-timeline.png
+
+Profilansicht
+=============
+
+.. image:: images/teletext-profile-view.png
+
+Erwähnungen
+===========
+
+.. image:: images/teletext-mentions.png
+
 Das Telegramm war eine sinnvolle Ergänzung in einer Zeit, in der es kaum private Telefone gab. Es war bedeutend schneller als ein Brief und kam einigermassen sicher an.
 
 Heute erleben wir eine völlig andere Situation. Es gibt ein unüberschaubares Angebot von Kommunikations-Möglichkeiten. Man kann nahezu in Echtzeit Nachrichten austauschen. Die horrenden Kosten für jedes einzelne übermittelte Zeichen bei den Telegrammen sind einem „all inclusive“ gewichen.
