@@ -292,98 +292,67 @@ Der gewählte Ordner wird nun mit OwnCloud synchron gehalten.
 Teletext
 ********
 
-Kontakte aus dem Enigmabox-Adressbuch hinzufügen
-================================================
+Teletext ist ein Nachbau des Kurznachrichtendienstes Twitter. Allerdings dezentral und verschlüsselt, wie jeder Dienst auf der Enigmabox. Mit Teletext können Nachrichten bis zu 256 Zeichen in Echtzeit zu anderen Enigmaboxen gesendet werden. Die Empfänger können auswählen, von welchem Sender sie Nachrichten empfangen möchten. Der Sender kann selbst bestimmen, ob seine Abonnenten und seine abonnierten Kanäle von anderen Anwendern sichtbar sind.
 
-.. image:: images/teletext-add-from-addressbook.png
+So geht's:
 
-Die Timeline
-============
+Da Teletext eine öffentliche Schnittstelle für alle innerhalb des verschlüsselten Netzwerks bereitstellt, ist das Programm standardmässig deaktiviert und muss manuell in der Administrationsoberfläche eingeschaltet werden. Also einschalten unter http://box/teletext/.
 
-.. image:: images/teletext-timeline.png
+Teletext ist nun aktiviert und erreichbar: http://text.box/.
+
+Profil ausfüllen
+================
+
+.. image:: images/teletext-settings.png
+
+* **Username:** Der Benutzername, der im Profil angezeigt wird.
+* **Bio:** Eine kurze Beschreibung über dich oder über das, was dieser Kanal darstellt.
+* **Profile image:** Lade ein Profilbild hoch, welches neben jedem Telegramm dargestellt wird.
+* **Show subscribers:** Legt fest, ob andere deine Abonnenten sehen können.
+* **Show subscriptions:** Legt fest, ob andere deine abonnierten Kanäle sehen können.
 
 Profilansicht
 =============
 
+So erscheint deine Telegrammseite für andere Besucher.
+
 .. image:: images/teletext-profile-view.png
+
+Kontakte aus dem Enigmabox-Adressbuch hinzufügen
+================================================
+
+Falls Kontakte aus deinem Adressbuch Teletext bei sich aktiviert haben, kannst du dich zu ihnen abonnieren.
+
+.. image:: images/teletext-add-from-addressbook.png
+
+Die Telegramme werden nun abgerufen und lokal auf Deiner Enigmabox gespeichert. Mit einem Klick auf den Sendernamen im Telegramm können die Details angezeigt werden. Mit "Retransmit" wird das Telegramm an deine Abonnenten weitergereicht.
+
+Die Timeline
+============
+
+Die Timeline stellt die Telegramme aller abonnierten Kanäle dar. Der neuste Beitrag ist zuoberst.
+
+Im Textfeld ganz oben kannst du dein Telegramm verfassen, welches dann an alle Abonnenten gesendet wird.
+
+.. image:: images/teletext-timeline.png
 
 Erwähnungen
 ===========
 
 .. image:: images/teletext-mentions.png
 
-Das Telegramm war eine sinnvolle Ergänzung in einer Zeit, in der es kaum private Telefone gab. Es war bedeutend schneller als ein Brief und kam einigermassen sicher an.
+Drücke "@" und wähle einen Empfänger aus der Liste aus, um ein Telegramm an ihn zu schicken, auch wenn dieser deinen Kanal nicht abonniert hat. Der Benutzername wird verlinkt und der Empfänger per E-Mail benachrichtigt.
 
-Heute erleben wir eine völlig andere Situation. Es gibt ein unüberschaubares Angebot von Kommunikations-Möglichkeiten. Man kann nahezu in Echtzeit Nachrichten austauschen. Die horrenden Kosten für jedes einzelne übermittelte Zeichen bei den Telegrammen sind einem „all inclusive“ gewichen.
+News Super Agency
+=================
 
+http://text.box/fc80:56b5:b0ac:0c35:8e73:c9d1:5029:a6f2
 
+Der Einstiegspunkt für neue Teletext-Anwender mit leeren Adressbüchern. Dieser Kanal berichtet über Geschehnisse rund um Überwachung und Datenschutz.
 
-
-Aber hat sich die Kommunikation tatsächlich verändert? Kaum waren die Telegramme in Mode gekommen, wurde versucht, den Inhalt der Telegramme und die jeweiligen Sender ausfindig zumachen. Abhorchen ist keine neue Erfindung. Aber eine flächendeckende Abhorchaktion gab es in den Anfängen der Telekommunikation doch noch nicht.
-
-Die Enigmabox lässt das Telegramm mit dem Dienst Teletext wieder aufleben. Selbstverständlich kostenlos, so wie das Telefon- und Mailsystem.
-
-Mit dem Teletext werden Nachrichten mit 256 Zeichen in Echtzeit und verschlüsselt zu anderen Enigmaboxen gesendet. Der Sender kann selbst bestimmen, ob seine Abonnenten und seine abonnierten Telegramme von anderen Anwendern sichtbar sind.
-
-So geht’s:
-
-Da Teletext eine öffentliche Schnittstelle für alle innerhalb des verschlüsselten Netzwerks bereitstellt, ist das Programm standardmässig deaktiviert und muss manuell in der Administrationsoberfläche eingeschaltet werden. Also einschalten unter http://box.
-
-Jetzt ist die Schaltfläche „Teletext“ aktiv. Unter Teletext „settings“ kannst Du das Profil ausfüllen:
-Du kannst Deinen Namen unter „Username“ frei wählen. Bei „Bio“ kann eine nähere Beschreibung stehen und das „Profil Image“ verschönert Deine Telegramm Visitenkarte.
-
-Wichtig sind die Einstellungen der Sichtbarkeit:
-Mit “Show subscribers“ aktiv sind Deine Abonnenten sichtbar. Also wer sonst noch Deine Telegramme erhält.
-
-Mit “Show subscriptions” aktiv sind Deine abonnierten Telegramme sichtbar. Also welche Telegramme Du selbst erhalten hast.
-Speichere Deine Einstellungen.  Nun kann es losgehen.
-Unter „Enigmabox adress book“ kannst Du Deine Kontakte zum Teletext hinzufügen.
-Oder Du kannst zum Starten den Telegramm Schreiber „News Super Aktuell“ (NSA) abonnieren. Nein, es ist natürlich nicht die NSA, sondern nur ein temporärer Treffpunkt für Teletext Anwender.
-
-
-
-Die Telegramme werden nun abgerufen und lokal auf Deiner Enigmabox gespeichert. Mit einem Klick auf den Sendernamen im Telegramm können die Details angezeigt werden. Mit „Retransmit“ wird das Telegramm an Deine Abonnenten weitergereicht.
+Wenn du dich zu ihm abonnierst, wirst du in der "Subscribers"-Liste angezeigt und kannst so mit anderen Kanälen in Kontakt treten.
 
 Der Teletext ermöglicht den Netzbürgern, sich innerhalb des verschlüsselten Netzwerks zu finden. Sie können neue Kontakte zum Enigmabox Adressbuch hinzufügen und dann verschlüsselt telefonieren und E-Mails austauschen.
-
-
-
-
-
-Newest leaks of whistleblower Edward Raincave reveal a new counter spy program of the citizens secret service Enigmabox: Teletext.
-
-TELETEXT
-(TS//SI//REL) Teletext provides distributed mass protest coordination below the radar by implementing a Twitter like messaging system using cjdns addresses.
-
-(TS//SI//REL) This technique supports users on writing telegrams and spreading out important information quickly to reach critical mass.
-
-(TS//SI//REL) Through the distributed nature, Telegrams published on the Teletext system can not be censored, nor controlled. It is all end-to-end encrypted.
-
-Status: Released / Deployed. Ready for Immediate Delivery
-
-Unit Cost: $0
-
-COSMIC TOP SECRET//SAR-BUTTER POPCORN//RD-CNWDI//COMINT//REL TO CH
-
-This programm allows everyone to publish telegrams, and subscribe to telegrams of other parties inside the cryptonetwork. Here's a screen how a new telegram is created:
-
-
-Telegrams are character limited, but to 256 chars instead of only 140 at Twitter.
-
-Telegrams of all subscriptions are shown in a timeline, just as in Twitter. The distribution of the messages is nearly real-time.
-
-That is possible thanks to an asynchronous, event based Python server in combination with a fast in-memory work queue. The Server can answer up to 146 requests per second on the Enigmabox, consuming no more than 12m-15m memory.
-
-You can also retransmit Telegrams. This way, important information can spread really fast - and completely undetected. Everything is end-to-end encrypted and distributed, censorship is impossible.
-
-Here is the profile view:
-
-
-Teletext allows internet citizens to find each other inside this encrypted network. They can discover new contacts and add them to their address book, and then exchange encrypted emails or have encrypted phone calls.
-
-This feature has been released the night before yesterday to all Enigmaboxes and is ready to use.
-
-Since Teletext provides a public reachable interface inside the cryptonetwork, it is disabled by default. You have to enable it in the admin interface to use it.
 
 *****************
 Portweiterleitung
